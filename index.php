@@ -16,7 +16,7 @@ include 'includes/header.php';
         <div class="carousel-inner">
             <!-- Slide 1: Education For Every Child -->
             <div class="carousel-item active">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/hero_education_nonstop.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_1.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center" data-aos="fade-up" data-aos-duration="800">
@@ -37,7 +37,7 @@ include 'includes/header.php';
             </div>
             <!-- Slide 2: Education & School Centres -->
             <div class="carousel-item">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/education_centre.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_3.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center">
@@ -58,7 +58,7 @@ include 'includes/header.php';
             </div>
             <!-- Slide 3: Child Welfare -->
             <div class="carousel-item">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/child_welfare.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_4.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center">
@@ -79,7 +79,7 @@ include 'includes/header.php';
             </div>
             <!-- Slide 4: Women Empowerment -->
             <div class="carousel-item">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/women_empowerment.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_5.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center">
@@ -92,7 +92,7 @@ include 'includes/header.php';
                             </p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
                                 <a href="program-women-empowerment.php" class="btn btn-pill btn-pill-accent btn-md"><i class="fa-solid fa-scissors me-1"></i> Women Programs</a>
-                                <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-phone me-1"></i> Call: 85272 25832</a>
+                                <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-phone me-1"></i> Call: 70429 44703</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
                         </div>
                         <div class="text-start">
                             <h6 class="mb-0 fw-bold small text-dark">DIRECT SUPPORT</h6>
-                            <small class="text-muted" style="font-size:11px;">+91 85272 25832</small>
+                            <small class="text-muted" style="font-size:11px;">+91 70429 44703</small>
                         </div>
                     </div>
                 </div>
@@ -190,14 +190,14 @@ include 'includes/header.php';
                         <a href="about.php" class="btn btn-pill btn-pill-primary">
                             <i class="fa-solid fa-arrow-right me-1"></i> Read Full Story
                         </a>
-                        <a href="tel:+918527225832" class="btn btn-pill btn-pill-outline">
-                            <i class="fa-solid fa-phone me-1"></i> Call: 85272 25832
+                        <a href="tel:+917042944703" class="btn btn-pill btn-pill-outline">
+                            <i class="fa-solid fa-phone me-1"></i> Call: 70429 44703
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                     <div class="position-relative">
-                        <img src="images/education_centre.jpg" class="img-fluid w-100 rounded-4 shadow-sm" style="height: 360px; object-fit: cover;" alt="Non Stop Education Learning Centre">
+                        <img src="images/real_activity_2.jpg" class="img-fluid w-100 rounded-4 shadow-sm" style="height: 360px; object-fit: cover;" alt="Nonstop Education Learning Centre & Welfare">
                         <div class="glass-badge position-absolute bottom-0 start-0 m-3 p-2 px-3 d-flex align-items-center gap-2 border-radius-md bg-white shadow-sm" style="border-radius: var(--radius-md);">
                             <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 36px; height: 36px; flex-shrink: 0;">
                                 <i class="fa-solid fa-heart fs-6"></i>
@@ -261,6 +261,110 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Leadership & Founders Spotlight -->
+    <section class="section-padding bg-canvas border-top border-bottom position-relative overflow-hidden" id="leadership">
+        <div class="container position-relative z-1">
+            <div class="text-center mb-4" data-aos="fade-up">
+                <span class="eyebrow-tag mx-auto d-table mb-2">Visionary Leadership</span>
+                <h2 class="fw-bold font-heading text-dark">Meet The Founders</h2>
+                <p class="text-muted mx-auto mt-2" style="max-width: 600px;">
+                    Dedicated grassroots changemakers leading the mission to educate every child and empower every family.
+                </p>
+                <div class="mx-auto" style="width: 50px; height: 3px; background: linear-gradient(90deg, #183B76, #E52F37); border-radius: var(--radius-pill); margin-top: 10px;"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Founder: Manisha -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/founder_manisha.png" alt="Manisha - Founder" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER</span>
+                        <h3 class="fw-bold font-heading text-dark mb-1">Manisha</h3>
+                        <p class="text-muted small mb-2">Founder &amp; Managing Trustee</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            "Education is the greatest equalizer. Every child deserves the opportunity to learn, read, and achieve their dreams regardless of their background."
+                        </p>
+                        <div class="mt-auto pt-2">
+                            <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
+                                <i class="fa-brands fa-instagram me-1"></i> Connect on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Co-Founder: Versha -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/cofounder_versha.png" alt="Versha - Co-Founder" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">CO-FOUNDER</span>
+                        <h3 class="fw-bold font-heading text-dark mb-1">Versha</h3>
+                        <p class="text-muted small mb-2">Co-Founder &amp; Program Director</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            "Grassroots empathy combined with continuous action creates lasting social change. We are dedicated to child welfare, education, and women empowerment."
+                        </p>
+                        <div class="mt-auto pt-2">
+                            <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
+                                <i class="fa-brands fa-instagram me-1"></i> Connect on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Pillars Row -->
+            <div class="row g-4 justify-content-center mt-2">
+                <!-- Adv. Shubham Thakur -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_adv_shubham_thakur.png" alt="Adv. Shubham Thakur - Legal Advisor" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-dark bg-opacity-10 text-dark px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">LEGAL ADVISOR</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Adv. Shubham Thakur</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Legal Advisor</p>
+                        <p class="text-muted small lh-base mb-0 px-2">
+                            Guiding legal compliance, statutory governance, and human rights advocacy for our welfare projects.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ankit -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_ankit.png" alt="Ankit - Inside/Outside Project Manager" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">PROJECT MANAGEMENT</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Ankit</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Inside/Outside Project Manager</p>
+                        <p class="text-muted small lh-base mb-0 px-2">
+                            Executing on-ground learning centre logistics, community coordination, and internal operations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Naveen -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_naveen.png" alt="Naveen - Member & DOP Head" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">MEDIA &amp; PRODUCTION</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Naveen</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Member &amp; DOP Head</p>
+                        <p class="text-muted small lh-base mb-0 px-2">
+                            Leading cinematography, visual storytelling, and documenting grassroots student success stories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Key Initiatives & Programs Section -->
     <section class="section-padding bg-white position-relative" id="programs">
         <div class="container">
@@ -275,7 +379,7 @@ include 'includes/header.php';
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden transition-all hover-translate-up">
                         <div class="position-relative" style="height: 160px;">
-                            <img src="images/education_centre.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Education and School Centres">
+                            <img src="images/real_activity_1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Education and School Centres">
                             <span class="badge bg-primary position-absolute top-0 end-0 m-2 rounded-pill px-2 py-1" style="font-size: 11px;">Education</span>
                         </div>
                         <div class="p-3 d-flex flex-column flex-grow-1">
@@ -294,7 +398,7 @@ include 'includes/header.php';
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
                     <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden transition-all hover-translate-up">
                         <div class="position-relative" style="height: 160px;">
-                            <img src="images/child_welfare.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Welfare & Nutrition">
+                            <img src="images/real_activity_4.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Welfare & Nutrition">
                             <span class="badge bg-success position-absolute top-0 end-0 m-2 rounded-pill px-2 py-1" style="font-size: 11px;">Welfare</span>
                         </div>
                         <div class="p-3 d-flex flex-column flex-grow-1">
@@ -313,7 +417,7 @@ include 'includes/header.php';
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden transition-all hover-translate-up">
                         <div class="position-relative" style="height: 160px;">
-                            <img src="images/women_empowerment.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Women Empowerment">
+                            <img src="images/real_activity_5.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Women Empowerment">
                             <span class="badge bg-danger position-absolute top-0 end-0 m-2 rounded-pill px-2 py-1" style="font-size: 11px;">Empowerment</span>
                         </div>
                         <div class="p-3 d-flex flex-column flex-grow-1">
@@ -332,7 +436,7 @@ include 'includes/header.php';
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="250">
                     <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden transition-all hover-translate-up">
                         <div class="position-relative" style="height: 160px;">
-                            <img src="images/hero_education_nonstop.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Skill Development & Community">
+                            <img src="images/real_activity_3.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Skill Development & Community">
                             <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2 rounded-pill px-2 py-1" style="font-size: 11px;">Community</span>
                         </div>
                         <div class="p-3 d-flex flex-column flex-grow-1">
@@ -467,7 +571,7 @@ include 'includes/header.php';
                                 </div>
                                 <div>
                                     <small class="text-muted fw-bold text-uppercase d-block" style="font-size: 11px;">Helpline &amp; Support</small>
-                                    <a href="tel:+918527225832" class="fw-bold text-dark fs-5 text-decoration-none">+91 85272 25832</a>
+                                    <a href="tel:+917042944703" class="fw-bold text-dark fs-5 text-decoration-none">+91 70429 44703</a>
                                 </div>
                             </div>
                         </div>
@@ -499,39 +603,57 @@ include 'includes/header.php';
             </div>
 
             <div class="row g-3">
-                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 180px;">
-                        <img src="images/hero_education_nonstop.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Underprivileged Children Education">
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Free Community Education Drive">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
                             <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Education</span>
-                            <h6 class="mb-0 text-white small fw-bold">Slum Learning Camp</h6>
+                            <h6 class="mb-0 text-white small fw-bold">Slum Learning Centre</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 180px;">
-                        <img src="images/education_centre.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Classroom Learning Centre">
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_2.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Guidance and Classroom">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Classroom</span>
-                            <h6 class="mb-0 text-white small fw-bold">Mentorship Sessions</h6>
+                            <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Mentorship</span>
+                            <h6 class="mb-0 text-white small fw-bold">Ground Student Support</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 180px;">
-                        <img src="images/child_welfare.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Welfare Distribution">
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_3.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Welfare & Essentials Distribution">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
                             <span class="badge bg-success rounded-pill mb-1" style="font-size: 10px;">Welfare</span>
-                            <h6 class="mb-0 text-white small fw-bold">Nutrition Drives</h6>
+                            <h6 class="mb-0 text-white small fw-bold">Stationery &amp; Food Drives</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="250">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 180px;">
-                        <img src="images/women_empowerment.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Women Vocational Training">
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_4.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Interactive Learning Classes">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Empowerment</span>
-                            <h6 class="mb-0 text-white small fw-bold">Tailoring Workshop</h6>
+                            <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Classroom</span>
+                            <h6 class="mb-0 text-white small fw-bold">Active Academic Classes</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_5.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Community Empowerment Camp">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
+                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Empowerment</span>
+                            <h6 class="mb-0 text-white small fw-bold">Community Skill Workshop</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="350">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
+                        <img src="images/real_activity_6.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Dedicated Volunteers on Field">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
+                            <span class="badge bg-info text-dark rounded-pill mb-1" style="font-size: 10px;">Volunteers</span>
+                            <h6 class="mb-0 text-white small fw-bold">Grassroots Outreach Team</h6>
                         </div>
                     </div>
                 </div>

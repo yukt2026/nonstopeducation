@@ -26,7 +26,7 @@ include 'includes/header.php';
                     <p class="text-muted lh-base mb-3 small">Volunteering with Non Stop Education is an honorary contribution of time and skills to support underprivileged students and communities. Volunteers are expected to uphold the dignity, safety, and rights of all children and beneficiaries.</p>
                     
                     <h5 class="fw-bold mb-2 font-heading text-dark">4. Contact &amp; Governance</h5>
-                    <p class="text-muted lh-base mb-0 small">For any questions regarding these terms, contact our support team at <a href="tel:+918527225832" class="text-danger fw-bold text-decoration-none">+91 85272 25832</a> or <a href="mailto:contact@nonstopeducation.org" class="text-primary text-decoration-none">contact@nonstopeducation.org</a>.</p>
+                    <p class="text-muted lh-base mb-0 small">For any questions regarding these terms, contact our support team at <a href="tel:+917042944703" class="text-danger fw-bold text-decoration-none">+91 70429 44703</a> or <a href="mailto:nonstopeducation246@gmail.com" class="text-primary text-decoration-none">nonstopeducation246@gmail.com</a>.</p>
                 </div>
             </div>
         </div>

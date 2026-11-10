@@ -47,8 +47,8 @@ include 'includes/header.php';
                         <a href="volunteer.php" class="btn btn-pill btn-pill-primary btn-sm">
                             <i class="fa-solid fa-laptop-code me-1"></i> Conduct Workshop
                         </a>
-                        <a href="tel:+918527225832" class="btn btn-pill btn-pill-outline btn-sm">
-                            <i class="fa-solid fa-phone me-1"></i> Call: +91 85272 25832
+                        <a href="tel:+917042944703" class="btn btn-pill btn-pill-outline btn-sm">
+                            <i class="fa-solid fa-phone me-1"></i> Call: +91 70429 44703
                         </a>
                     </div>
                 </div>

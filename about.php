@@ -56,7 +56,7 @@ include 'includes/header.php';
                         </div>
                         <div class="d-flex align-items-center gap-2 bg-white py-1.5 px-3 rounded-pill border shadow-xs">
                             <i class="fa-solid fa-phone text-danger small"></i>
-                            <span class="fw-bold text-dark small">+91 85272 25832</span>
+                            <span class="fw-bold text-dark small">+91 70429 44703</span>
                         </div>
                     </div>
                 </div>
@@ -182,6 +182,118 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Leadership & Founders Section -->
+    <section class="section-padding bg-canvas border-top" id="leadership">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="eyebrow-tag mx-auto d-table mb-2">Visionary Leadership</span>
+                <h2 class="fw-bold font-heading text-dark">Meet Our Founders</h2>
+                <p class="text-muted mx-auto mt-2" style="max-width: 650px;">
+                    Driven by deep empathy and grassroots commitment, our founders lead the charge to ensure quality education, child nutrition, and women empowerment reach every community.
+                </p>
+                <div class="mx-auto" style="width: 50px; height: 3px; background: linear-gradient(90deg, #183B76, #E52F37); border-radius: var(--radius-pill); margin-top: 10px;"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Founder: Manisha -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/founder_manisha.png" alt="Manisha - Founder" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER</span>
+                        <h3 class="fw-bold font-heading text-dark mb-1">Manisha</h3>
+                        <p class="text-muted small mb-3">Founder &amp; Managing Trustee</p>
+                        <p class="text-muted small lh-base mb-4 px-2">
+                            "Education is not a privilege; it is the fundamental right of every child. Our lifelong commitment is to dismantle generational poverty through free community learning centres, child health drives, and inclusive growth."
+                        </p>
+                        <div class="mt-auto pt-2">
+                            <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
+                                <i class="fa-brands fa-instagram me-1"></i> Follow on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Co-Founder: Versha -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/cofounder_versha.png" alt="Versha - Co-Founder" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">CO-FOUNDER</span>
+                        <h3 class="fw-bold font-heading text-dark mb-1">Versha</h3>
+                        <p class="text-muted small mb-3">Co-Founder &amp; Program Director</p>
+                        <p class="text-muted small lh-base mb-4 px-2">
+                            "When we educate a girl and empower a mother, an entire generation transforms. We believe in grassroots action, continuous dedication, and creating sustainable opportunities for every family we serve."
+                        </p>
+                        <div class="mt-auto pt-2">
+                            <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
+                                <i class="fa-brands fa-instagram me-1"></i> Follow on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Team & Advisors Header -->
+            <div class="text-center mt-5 mb-4" data-aos="fade-up">
+                <span class="eyebrow-tag mx-auto d-table mb-2">Dedicated Pillars</span>
+                <h3 class="fw-bold font-heading text-dark">Our Key Pillars &amp; Advisors</h3>
+                <p class="text-muted mx-auto small" style="max-width: 550px;">
+                    Passionate professionals providing legal governance, field operations, and media leadership to power our grassroots movement.
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Adv. Shubham Thakur -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_adv_shubham_thakur.png" alt="Adv. Shubham Thakur - Legal Advisor" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-dark bg-opacity-10 text-dark px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">LEGAL ADVISOR</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Adv. Shubham Thakur</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Legal Advisor</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            Overseeing legal compliance, regulatory governance, institutional ethics, and protecting child protection rights across all foundation initiatives.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ankit -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_ankit.png" alt="Ankit - Inside/Outside Project Manager" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">PROJECT MANAGEMENT</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Ankit</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Inside/Outside Project Manager</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            Leading ground implementation, external community partnerships, learning centre setups, and coordinating seamless internal project operations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Naveen -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_naveen.png" alt="Naveen - Member & DOP Head" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">MEDIA &amp; PRODUCTION</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Naveen</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Member &amp; DOP Head</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            Directing visual documentary storytelling, media outreach, and broadcasting the NGO's real ground impact across our official YouTube channel and social handles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Core Values Section -->
     <section class="section-padding bg-canvas border-top">
         <div class="container">
@@ -231,8 +343,8 @@ include 'includes/header.php';
                 Whether you want to sponsor a learning centre, donate kits, or volunteer, we are eager to connect.
             </p>
             <div class="d-flex justify-content-center flex-wrap gap-2">
-                <a href="tel:+918527225832" class="btn btn-pill btn-pill-accent btn-md">
-                    <i class="fa-solid fa-phone me-1"></i> Call: +91 85272 25832
+                <a href="tel:+917042944703" class="btn btn-pill btn-pill-accent btn-md">
+                    <i class="fa-solid fa-phone me-1"></i> Call: +91 70429 44703
                 </a>
                 <a href="volunteer.php" class="btn btn-pill btn-pill-primary btn-md">
                     <i class="fa-solid fa-handshake-angle me-1"></i> Join Volunteer Team

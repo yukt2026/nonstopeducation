@@ -66,7 +66,7 @@ include 'includes/header.php';
                                     <small class="text-muted" style="font-size: 11px;">Contact our admission desk</small>
                                 </div>
                             </div>
-                            <a href="tel:+918527225832" class="btn btn-sm btn-pill-accent text-nowrap py-1 px-2.5" style="font-size: 12px;">+91 85272 25832</a>
+                            <a href="tel:+917042944703" class="btn btn-sm btn-pill-accent text-nowrap py-1 px-2.5" style="font-size: 12px;">+91 70429 44703</a>
                         </div>
                     </div>
                 </div>

@@ -45,7 +45,7 @@ include 'includes/header.php';
 
                     <div class="d-flex flex-wrap gap-2">
                         <a href="contact.php" class="btn btn-pill btn-pill-accent btn-sm">
-                            <i class="fa-solid fa-phone me-1"></i> Join Batch: 85272 25832
+                            <i class="fa-solid fa-phone me-1"></i> Join Batch: 70429 44703
                         </a>
                         <a href="donate.php" class="btn btn-pill btn-pill-outline btn-sm">
                             <i class="fa-solid fa-heart me-1"></i> Sponsor Sewing Machine
@@ -69,7 +69,7 @@ include 'includes/header.php';
             </p>
             <div class="d-flex justify-content-center gap-2">
                 <a href="donate.php" class="btn btn-pill btn-pill-accent btn-md"><i class="fa-solid fa-heart me-1"></i> Donate to Women Training</a>
-                <a href="contact.php" class="btn btn-pill btn-pill-primary btn-md"><i class="fa-solid fa-phone me-1"></i> Contact: 85272 25832</a>
+                <a href="contact.php" class="btn btn-pill btn-pill-primary btn-md"><i class="fa-solid fa-phone me-1"></i> Contact: 70429 44703</a>
             </div>
         </div>
     </section>

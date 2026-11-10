@@ -123,7 +123,7 @@ include 'includes/header.php';
                             Explore Women Programs <i class="fa-solid fa-arrow-right ms-1"></i>
                         </a>
                         <a href="contact.php" class="btn btn-pill btn-pill-outline btn-sm">
-                            Call: 85272 25832
+                            Call: 70429 44703
                         </a>
                     </div>
                 </div>
@@ -177,11 +177,11 @@ include 'includes/header.php';
         <div class="container py-2">
             <h3 class="fw-bold font-heading mb-2 text-dark">Have Questions Or Want To Support Our Centres?</h3>
             <p class="text-muted mx-auto mb-3 small" style="max-width: 600px;">
-                Call us directly at <strong>+91 85272 25832</strong> or reach out to explore how you can sponsor students or volunteer.
+                Call us directly at <strong>+91 70429 44703</strong> or reach out to explore how you can sponsor students or volunteer.
             </p>
             <div class="d-flex justify-content-center flex-wrap gap-2">
-                <a href="tel:+918527225832" class="btn btn-pill btn-pill-accent btn-md">
-                    <i class="fa-solid fa-phone me-1"></i> Call: +91 85272 25832
+                <a href="tel:+917042944703" class="btn btn-pill btn-pill-accent btn-md">
+                    <i class="fa-solid fa-phone me-1"></i> Call: +91 70429 44703
                 </a>
                 <a href="donate.php" class="btn btn-pill btn-pill-primary btn-md">
                     <i class="fa-solid fa-heart me-1"></i> Support Our Programs

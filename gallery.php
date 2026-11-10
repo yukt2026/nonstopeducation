@@ -74,61 +74,61 @@ include 'includes/header.php';
             <div class="gallery-grid">
                 <!-- Item 1 -->
                 <div class="gallery-item" data-aos="fade-up">
-                    <img src="images/hero_education_nonstop.jpg" alt="Underprivileged Children with books">
+                    <img src="images/real_activity_1.jpg" alt="Underprivileged Children Free Education Camp">
                     <div class="gallery-overlay">
                         <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Education</span>
                         <h6 class="fw-bold mb-0 text-white">Outdoor Slum Learning Camp</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Foundational reading and mathematics sessions.</p>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Foundational reading and academic support.</p>
                     </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
-                    <img src="images/education_centre.jpg" alt="Community Classroom Session">
+                    <img src="images/real_activity_2.jpg" alt="Community Classroom Session">
                     <div class="gallery-overlay">
                         <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Learning Centre</span>
                         <h6 class="fw-bold mb-0 text-white">Active Classroom Mentorship</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Teaching primary curriculum to students.</p>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Dedicated volunteer teaching sessions.</p>
                     </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
-                    <img src="images/child_welfare.jpg" alt="Child Welfare & Nutrition Drive">
+                    <img src="images/real_activity_3.jpg" alt="Child Welfare & Nutrition Drive">
                     <div class="gallery-overlay">
                         <span class="badge bg-success rounded-pill mb-1" style="font-size: 10px;">Child Welfare</span>
                         <h6 class="fw-bold mb-0 text-white">Nutrition &amp; School Kits</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Distributing school backpacks and nutritious snacks.</p>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Distributing essential kits and healthy meals.</p>
                     </div>
                 </div>
 
                 <!-- Item 4 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
-                    <img src="images/women_empowerment.jpg" alt="Women Vocational Training">
+                    <img src="images/real_activity_4.jpg" alt="Interactive Student Learning">
                     <div class="gallery-overlay">
-                        <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Empowerment</span>
-                        <h6 class="fw-bold mb-0 text-white">Tailoring &amp; Skill Centre</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Practical stitching and garment crafting classes.</p>
+                        <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Classroom</span>
+                        <h6 class="fw-bold mb-0 text-white">Foundational Literacy</h6>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Engaging students with interactive learning.</p>
                     </div>
                 </div>
 
                 <!-- Item 5 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
-                    <img src="images/hero_education.png" alt="Community Engagement">
+                    <img src="images/real_activity_5.jpg" alt="Community Empowerment Camp">
                     <div class="gallery-overlay">
-                        <span class="badge bg-info text-white rounded-pill mb-1" style="font-size: 10px;">Outreach</span>
-                        <h6 class="fw-bold mb-0 text-white">Community Engagement</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Advocacy for regular girl child schooling.</p>
+                        <span class="badge bg-danger text-white rounded-pill mb-1" style="font-size: 10px;">Empowerment</span>
+                        <h6 class="fw-bold mb-0 text-white">Youth &amp; Women Workshop</h6>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Vocational training and community empowerment.</p>
                     </div>
                 </div>
 
                 <!-- Item 6 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
-                    <img src="images/banner_shg_empowerment.png" alt="Self Help Group">
+                    <img src="images/real_activity_6.jpg" alt="Grassroots Volunteer Outreach">
                     <div class="gallery-overlay">
-                        <span class="badge bg-secondary rounded-pill mb-1" style="font-size: 10px;">Livelihoods</span>
-                        <h6 class="fw-bold mb-0 text-white">Self-Help Group Meeting</h6>
-                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Community savings and micro-enterprises.</p>
+                        <span class="badge bg-info text-dark rounded-pill mb-1" style="font-size: 10px;">Volunteers</span>
+                        <h6 class="fw-bold mb-0 text-white">Grassroots Field Outreach</h6>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Volunteers on ground across communities.</p>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@ include 'includes/header.php';
             <h4 class="fw-bold font-heading mb-2 text-dark">Create More Success Stories With Us</h4>
             <div class="d-flex justify-content-center gap-2 flex-wrap">
                 <a href="donate.php" class="btn btn-pill btn-pill-accent btn-sm"><i class="fa-solid fa-heart me-1"></i> Donate / Support Us</a>
-                <a href="tel:+918527225832" class="btn btn-pill btn-pill-outline btn-sm"><i class="fa-solid fa-phone me-1"></i> Call: +91 85272 25832</a>
+                <a href="tel:+917042944703" class="btn btn-pill btn-pill-outline btn-sm"><i class="fa-solid fa-phone me-1"></i> Call: +91 70429 44703</a>
             </div>
         </div>
     </section>

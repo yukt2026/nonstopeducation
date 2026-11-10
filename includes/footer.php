@@ -4,14 +4,14 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 pe-lg-4 text-center text-md-start">
                     <a class="navbar-brand-custom mb-3 d-inline-flex align-items-center text-decoration-none" href="index.php" style="color: var(--white);">
-                        <img src="images/logo.png" alt="Non Stop Education & Social Welfare Foundation Logo" style="height: 56px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: var(--white); padding: 2px;" class="me-2"> 
+                        <img src="images/logo.png" alt="Nonstop Education and Social Welfare Foundation Logo" style="height: 56px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: var(--white); padding: 2px;" class="me-2"> 
                         <div class="d-flex flex-column text-start">
-                            <span style="color: #ffffff !important; font-weight: 800; font-size: 1.15rem; line-height: 1.1;">NON STOP</span>
-                            <span style="color: #FF6B6B !important; font-weight: 700; font-size: 0.78rem; line-height: 1.1; letter-spacing: 0.4px;">EDUCATION &amp; WELFARE</span>
+                            <span style="color: #ffffff !important; font-weight: 800; font-size: 1.15rem; line-height: 1.1;">NONSTOP EDUCATION</span>
+                            <span style="color: #FF6B6B !important; font-weight: 700; font-size: 0.74rem; line-height: 1.1; letter-spacing: 0.4px;">AND SOCIAL WELFARE FOUNDATION</span>
                         </div>
                     </a>
                     <p class="mb-3 text-white-50 lh-base" style="font-size: 0.9rem;">
-                        Non Stop Education &amp; Social Welfare Foundation is a non-profit organization dedicated to creating a positive social impact through education, empowerment, and community development.
+                        Nonstop Education and Social Welfare Foundation is a non-profit organization dedicated to creating a positive social impact through education, empowerment, and community development.
                     </p>
                     <div class="d-flex flex-column align-items-center align-items-md-start gap-1 mb-2">
                         <span class="d-block small text-white-50"><i class="fa-solid fa-check text-success me-1"></i> Govt. Registered Social Welfare Foundation</span>
@@ -49,27 +49,34 @@
                             <i class="fa-solid fa-phone text-danger mt-1"></i> 
                             <div>
                                 <strong class="text-white">Helpline:</strong>
-                                <a href="tel:+918527225832" class="text-white-50 text-decoration-none fw-semibold d-block">+91 85272 25832</a>
+                                <a href="tel:+917042944703" class="text-white-50 text-decoration-none fw-semibold d-block">+91 70429 44703</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start text-start gap-2">
+                            <i class="fa-brands fa-whatsapp text-success mt-1"></i> 
+                            <div>
+                                <strong class="text-white">WhatsApp:</strong>
+                                <a href="https://wa.me/918700549755" target="_blank" rel="noopener noreferrer" class="text-white-50 text-decoration-none fw-semibold d-block">+91 87005 49755</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-start text-start gap-2">
                             <i class="fa-solid fa-envelope text-danger mt-1"></i> 
                             <div>
                                 <strong class="text-white">Email:</strong>
-                                <a href="mailto:contact@nonstopeducation.org" class="text-white-50 text-decoration-none d-block">contact@nonstopeducation.org</a>
+                                <a href="mailto:nonstopeducation246@gmail.com" class="text-white-50 text-decoration-none d-block">nonstopeducation246@gmail.com</a>
                             </div>
                         </li>
                     </ul>
                     <div class="d-flex justify-content-center justify-content-md-start gap-2 mt-3">
                         <a href="#" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://wa.me/918527225832" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="Instagram @nonstop_education"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@non_stop_education?si=VHYRZ3ueUGXyQQlE" target="_blank" rel="noopener noreferrer" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="YouTube @non_stop_education"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://wa.me/918700549755" target="_blank" rel="noopener noreferrer" class="footer-circle-btn" style="width: 36px; height: 36px; font-size: 14px;" title="WhatsApp (+91 87005 49755)"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom-line text-center text-white-50 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 mt-3 pt-3 border-top border-secondary border-opacity-25 small">
-                <p class="mb-0">&copy; <?php echo date('Y'); ?> Non Stop Education &amp; Social Welfare Foundation. All Rights Reserved.</p>
+                <p class="mb-0">&copy; <?php echo date('Y'); ?> Nonstop Education and Social Welfare Foundation. All Rights Reserved.</p>
                 <div class="d-flex gap-3">
                     <a href="privacy.php" class="text-white-50 small text-decoration-none">Privacy Policy</a>
                     <a href="terms.php" class="text-white-50 small text-decoration-none">Terms of Service</a>

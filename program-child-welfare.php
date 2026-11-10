@@ -47,8 +47,8 @@ include 'includes/header.php';
                         <a href="donate.php" class="btn btn-pill btn-pill-accent btn-sm">
                             <i class="fa-solid fa-apple-whole me-1"></i> Donate For Nutrition
                         </a>
-                        <a href="tel:+918527225832" class="btn btn-pill btn-pill-outline btn-sm">
-                            <i class="fa-solid fa-phone me-1"></i> Call: 85272 25832
+                        <a href="tel:+917042944703" class="btn btn-pill btn-pill-outline btn-sm">
+                            <i class="fa-solid fa-phone me-1"></i> Call: 70429 44703
                         </a>
                     </div>
                 </div>

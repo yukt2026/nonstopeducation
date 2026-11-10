@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Contact Us | Non Stop Education & Social Welfare Foundation";
-$pageDescription = "Get in touch with Non Stop Education & Social Welfare Foundation. Call +91 85272 25832, visit our community centres, or send us a message.";
+$pageDescription = "Get in touch with Non Stop Education & Social Welfare Foundation. Call +91 70429 44703, visit our community centres, or send us a message.";
 $activePage = "contact";
 include 'includes/header.php';
 ?>
@@ -38,7 +38,7 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark">Helpline &amp; WhatsApp</h6>
-                                <a href="tel:+918527225832" class="text-danger fw-bold text-decoration-none fs-6">+91 85272 25832</a>
+                                <a href="tel:+917042944703" class="text-danger fw-bold text-decoration-none fs-6">+91 70429 44703</a>
                                 <small class="text-muted d-block" style="font-size: 11px;">Mon – Sat (9:00 AM – 7:00 PM)</small>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark">Email Support</h6>
-                                <a href="mailto:contact@nonstopeducation.org" class="text-primary fw-semibold text-decoration-none small">contact@nonstopeducation.org</a>
+                                <a href="mailto:nonstopeducation246@gmail.com" class="text-primary fw-semibold text-decoration-none small">nonstopeducation246@gmail.com</a>
                                 <small class="text-muted d-block" style="font-size: 11px;">Response within 24 hours</small>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ include 'includes/header.php';
                             <i class="fa-brands fa-whatsapp text-success fs-4"></i>
                             <span class="small fw-bold text-dark">Chat on WhatsApp</span>
                         </div>
-                        <a href="https://wa.me/918527225832" target="_blank" class="btn btn-sm btn-success rounded-pill px-3 fw-bold py-1" style="font-size: 12px;">
+                        <a href="https://wa.me/918700549755" target="_blank" class="btn btn-sm btn-success rounded-pill px-3 fw-bold py-1" style="font-size: 12px;">
                             Open Chat
                         </a>
                     </div>
@@ -85,45 +85,45 @@ include 'includes/header.php';
                         <h4 class="fw-bold mb-1 text-center text-dark font-heading">Send Us A Message</h4>
                         <p class="text-muted small text-center mb-3">Leave your inquiry below and our representative will contact you promptly.</p>
                         
-                        <div id="contactFeedback" class="alert alert-success d-none text-center py-2 rounded-3 mb-3" role="alert">
-                            <i class="fa-solid fa-circle-check fs-5 text-success mb-1 d-block"></i>
-                            <h6 class="fw-bold mb-0">Message Sent Successfully!</h6>
-                            <p class="small mb-0">Thank you for reaching out. We will get back to you shortly.</p>
+                        <div id="contactFeedback" class="alert alert-success d-none text-center py-2.5 rounded-3 mb-3" role="alert">
+                            <i class="fa-solid fa-circle-check fs-4 text-success mb-1 d-block"></i>
+                            <h6 class="fw-bold mb-0">Opening WhatsApp...</h6>
+                            <p class="small mb-0">Your inquiry is being forwarded directly to our official WhatsApp support (+91 87005 49755).</p>
                         </div>
 
                         <form id="contactForm" onsubmit="submitContactForm(event)">
                             <div class="row g-2">
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small mb-1">Your Name *</label>
-                                    <input type="text" class="form-control form-control-custom form-control-sm" placeholder="Full Name" required>
+                                    <input type="text" id="cName" class="form-control form-control-custom form-control-sm" placeholder="Full Name" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small mb-1">Phone Number *</label>
-                                    <input type="tel" class="form-control form-control-custom form-control-sm" placeholder="10-digit mobile number" required>
+                                    <input type="tel" id="cPhone" class="form-control form-control-custom form-control-sm" placeholder="10-digit mobile number" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small mb-1">Email Address</label>
-                                    <input type="email" class="form-control form-control-custom form-control-sm" placeholder="name@domain.com">
+                                    <input type="email" id="cEmail" class="form-control form-control-custom form-control-sm" placeholder="name@domain.com">
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small mb-1">Inquiry Subject *</label>
-                                    <select class="form-select form-control-custom form-select-sm" required>
+                                    <select id="cSubject" class="form-select form-control-custom form-select-sm" required>
                                         <option value="" selected disabled>Select Subject</option>
-                                        <option value="admission">Child Education / Admission</option>
-                                        <option value="volunteer">Volunteer / Educator</option>
-                                        <option value="donation">Donation / Sponsoring</option>
-                                        <option value="women">Women Vocational Training</option>
-                                        <option value="csr">Corporate CSR / Partnership</option>
-                                        <option value="other">Other Inquiry</option>
+                                        <option value="Child Education / Admission">Child Education / Admission</option>
+                                        <option value="Volunteer / Educator">Volunteer / Educator</option>
+                                        <option value="Donation / Sponsoring">Donation / Sponsoring</option>
+                                        <option value="Women Vocational Training">Women Vocational Training</option>
+                                        <option value="Corporate CSR / Partnership">Corporate CSR / Partnership</option>
+                                        <option value="Other Inquiry">Other Inquiry</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
                                     <label class="form-label fw-bold text-dark small mb-1">Your Message / Query *</label>
-                                    <textarea class="form-control form-control-custom form-control-sm" rows="3" placeholder="How can Non Stop Education assist you today?" required></textarea>
+                                    <textarea id="cMessage" class="form-control form-control-custom form-control-sm" rows="3" placeholder="How can Non Stop Education assist you today?" required></textarea>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <button type="submit" class="btn btn-pill btn-pill-accent w-100 py-2 fw-bold btn-sm">
-                                        <i class="fa-solid fa-paper-plane me-1"></i> Send Message
+                                    <button type="submit" class="btn btn-success w-100 py-2.5 fw-bold btn-sm shadow-xs">
+                                        <i class="fa-brands fa-whatsapp fs-6 me-1"></i> Send Inquiry to WhatsApp (+91 87005 49755)
                                     </button>
                                 </div>
                             </div>
@@ -141,11 +141,26 @@ include 'includes/header.php';
     <script>
         function submitContactForm(event) {
             event.preventDefault();
+            const name = document.getElementById('cName').value.trim();
+            const phone = document.getElementById('cPhone').value.trim();
+            const email = document.getElementById('cEmail').value.trim() || 'Not provided';
+            const subject = document.getElementById('cSubject').value;
+            const message = document.getElementById('cMessage').value.trim();
+
+            let msg = `*NEW CONTACT INQUIRY - NONSTOP EDUCATION NGO*\\n\\n` +
+                      `*Name:* \${name}\\n` +
+                      `*Phone:* \${phone}\\n` +
+                      `*Email:* \${email}\\n` +
+                      `*Subject:* \${subject}\\n` +
+                      `*Message:* \${message}\\n\\n` +
+                      `(Submitted via Nonstop Education official website)`;
+
             const feedback = document.getElementById('contactFeedback');
-            const form = document.getElementById('contactForm');
             feedback.classList.remove('d-none');
-            form.reset();
-            form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            feedback.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            const waUrl = 'https://wa.me/918700549755?text=' + encodeURIComponent(msg);
+            window.open(waUrl, '_blank');
         }
     </script>
     ";

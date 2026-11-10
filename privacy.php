@@ -26,7 +26,7 @@ include 'includes/header.php';
                     <p class="text-muted lh-base mb-3 small">We use your information exclusively to coordinate volunteer assignments, acknowledge contributions, respond to student admission queries, and send updates regarding our social welfare initiatives. We never sell or rent your information to third parties.</p>
                     
                     <h5 class="fw-bold mb-2 font-heading text-dark">4. Data Protection &amp; Contact</h5>
-                    <p class="text-muted lh-base mb-0 small">We implement strict security practices to safeguard all collected data. If you have any inquiries regarding your data, contact our helpline at <a href="tel:+918527225832" class="text-danger fw-bold text-decoration-none">+91 85272 25832</a> or email <a href="mailto:contact@nonstopeducation.org" class="text-primary text-decoration-none">contact@nonstopeducation.org</a>.</p>
+                    <p class="text-muted lh-base mb-0 small">We implement strict security practices to safeguard all collected data. If you have any inquiries regarding your data, contact our helpline at <a href="tel:+917042944703" class="text-danger fw-bold text-decoration-none">+91 70429 44703</a> or email <a href="mailto:nonstopeducation246@gmail.com" class="text-primary text-decoration-none">nonstopeducation246@gmail.com</a>.</p>
                 </div>
             </div>
         </div>
