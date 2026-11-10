@@ -55,7 +55,7 @@ include 'includes/header.php';
 
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                     <div class="position-relative">
-                        <img src="images/education_centre.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Centre">
+                        <img src="images/seminar_smart_class.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Smart Learning Centre">
                         <div class="p-2.5 bg-white rounded-3 shadow-xs border mt-2.5 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-2">
                                 <div class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">

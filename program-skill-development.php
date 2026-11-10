@@ -54,7 +54,7 @@ include 'includes/header.php';
                 </div>
 
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                    <img src="images/hero_education_nonstop.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Skill Workshop">
+                    <img src="images/seminar_school_activity.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Skill Workshop">
                 </div>
             </div>
         </div>

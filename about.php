@@ -62,7 +62,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                     <div class="position-relative">
-                        <img src="images/hero_education_nonstop.jpg" class="img-fluid w-100 rounded-4 shadow-sm" style="height: 380px; object-fit: cover;" alt="Non Stop Education Foundation Mission">
+                        <img src="images/real_activity_1.jpg" class="img-fluid w-100 rounded-4 shadow-sm" style="height: 380px; object-fit: cover;" alt="Non Stop Education Foundation Mission">
                         <div class="glass-badge position-absolute bottom-0 start-0 m-3 p-2 px-3 d-flex align-items-center gap-2 border-radius-md bg-white shadow-sm" style="border-radius: var(--radius-md);">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 36px; height: 36px;">
                                 <i class="fa-solid fa-star fs-6"></i>

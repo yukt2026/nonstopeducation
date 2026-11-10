@@ -54,7 +54,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                    <img src="images/education_centre.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Non Stop Education School Centres">
+                    <img src="images/seminar_smart_class.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Non Stop Education Smart Classroom Centres">
                 </div>
             </div>
 
@@ -91,7 +91,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
-                    <img src="images/child_welfare.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Child Welfare Non Stop Foundation">
+                    <img src="images/real_activity_3.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Child Welfare Non Stop Foundation">
                 </div>
             </div>
 
@@ -128,7 +128,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                    <img src="images/women_empowerment.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Women Empowerment Non Stop Foundation">
+                    <img src="images/real_activity_5.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Women Empowerment Non Stop Foundation">
                 </div>
             </div>
 
@@ -165,7 +165,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
-                    <img src="images/hero_education_nonstop.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Skill Development Non Stop Foundation">
+                    <img src="images/seminar_school_activity.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Skill Development Non Stop Foundation">
                 </div>
             </div>
 
