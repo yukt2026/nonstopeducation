@@ -217,10 +217,15 @@ include 'includes/header.php';
                                         </p>
                                         <div class="bg-white p-2.5 rounded-2 border mb-2 small" style="font-size: 11px;">
                                             <div><strong>Name:</strong> NON STOP EDUCATION AND S W F</div>
-                                            <div><strong>Bank details:</strong> 50200052015392 (HDFC Bank)</div>
+                                            <div><strong>Bank details:</strong> 50200052915390 (HDFC Bank)</div>
                                             <div><strong>Branch:</strong> EAST JYOTI NAGAR</div>
-                                            <div><strong>IFSC:</strong> HDFC0001595</div>
-                                            <div><strong>UPI ID:</strong> <span class="font-monospace fw-bold text-primary">7042944703@hdfc</span></div>
+                                            <div><strong>IFSC:</strong> HDFC0001566</div>
+                                            <div><strong>UPI ID:</strong> <span class="font-monospace fw-bold text-primary">manisha23696-2@okhdfcbank</span></div>
+                                            <div class="mt-1 pt-1 border-top">
+                                                <a href="images/donation_qr.jpg" target="_blank" class="btn btn-outline-danger btn-sm py-0 px-2 fw-semibold" style="font-size: 10px;">
+                                                    <i class="fa-solid fa-qrcode me-1"></i> View / Scan UPI QR Code
+                                                </a>
+                                            </div>
                                         </div>
                                         <label class="form-label small fw-bold text-dark mb-1">Mention Transaction ID (If donated)</label>
                                         <input type="text" id="vTxnId" class="form-control form-control-sm form-control-custom bg-white" placeholder="Enter Transaction ID / UTR">

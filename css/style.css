@@ -1944,8 +1944,8 @@ img {
 }
 
 .founder-photo-wrap {
-    width: 220px;
-    height: 250px;
+    width: 230px;
+    height: 260px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -1959,7 +1959,7 @@ img {
 }
 
 .founder-cutout-img {
-    height: 250px;
+    height: 260px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
@@ -1971,6 +1971,34 @@ img {
 
 .founder-card:hover .founder-cutout-img {
     transform: translateY(-4px) scale(1.03);
+}
+
+/* Mobile image enlargement for Founders & Leadership */
+@media (max-width: 767.98px) {
+    .founder-photo-wrap {
+        width: 270px;
+        height: 295px;
+        max-width: 100%;
+    }
+    .founder-cutout-img {
+        height: 295px;
+        max-height: 295px;
+    }
+}
+
+@media (max-width: 480px) {
+    .founder-card {
+        padding: 1.25rem 1rem !important;
+    }
+    .founder-photo-wrap {
+        width: 250px;
+        height: 280px;
+        max-width: 100%;
+    }
+    .founder-cutout-img {
+        height: 280px;
+        max-height: 280px;
+    }
 }
 
 @keyframes ticker-scroll {

@@ -94,8 +94,8 @@ include 'includes/header.php';
                                         <tr class="border-bottom">
                                             <td class="text-muted fw-bold">Account Number:</td>
                                             <td class="fw-bold text-danger fs-6 d-flex align-items-center justify-content-between">
-                                                <span>50200052015392</span>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm py-0 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('50200052015392'); alert('Account number copied!');">Copy</button>
+                                                <span>50200052915390</span>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm py-0 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('50200052915390'); alert('Account number copied!');">Copy</button>
                                             </td>
                                         </tr>
                                         <tr class="border-bottom">
@@ -109,8 +109,8 @@ include 'includes/header.php';
                                         <tr class="border-bottom">
                                             <td class="text-muted fw-bold">IFSC Code:</td>
                                             <td class="fw-bold text-dark d-flex align-items-center justify-content-between">
-                                                <span>HDFC0001595</span>
-                                                <button type="button" class="btn btn-outline-secondary btn-sm py-0 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('HDFC0001595'); alert('IFSC code copied!');">Copy</button>
+                                                <span>HDFC0001566</span>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm py-0 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('HDFC0001566'); alert('IFSC code copied!');">Copy</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -118,29 +118,42 @@ include 'includes/header.php';
                             </div>
                         </div>
 
-                        <!-- Official UPI Details Card -->
+                        <!-- Official UPI & QR Code Card -->
                         <div class="p-3 rounded-3 border bg-light mb-3">
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="fw-bold text-dark small"><i class="fa-solid fa-qrcode text-success me-1"></i> UPI Payment ID</span>
+                                <span class="fw-bold text-dark small"><i class="fa-solid fa-qrcode text-success me-1"></i> UPI Payment &amp; Official QR Code</span>
                                 <span class="badge bg-success-subtle text-success border border-success-subtle small" style="font-size: 10px;">Instant 0% Fee</span>
                             </div>
-                            <div class="d-flex align-items-center justify-content-between bg-white p-2.5 rounded-2 border">
-                                <div>
-                                    <small class="text-muted d-block" style="font-size: 11px;">Official Foundation UPI ID</small>
-                                    <span class="fw-bold text-dark fs-6 font-monospace">7042944703@hdfc</span>
+                            
+                            <div class="row g-3 align-items-center">
+                                <div class="col-sm-5 text-center">
+                                    <div class="p-2 bg-white rounded-3 border shadow-xs d-inline-block">
+                                        <img src="images/donation_qr.jpg" alt="Official Donation UPI QR Code - Non Stop Education & Social Welfare Foundation" class="img-fluid rounded-2" style="max-height: 220px; object-fit: contain;">
+                                        <div class="mt-1.5">
+                                            <a href="images/donation_qr.jpg" download="NonStopEducation_UPI_QR.jpg" class="btn btn-outline-secondary btn-sm py-0.5 px-2" style="font-size: 11px;">
+                                                <i class="fa-solid fa-download me-1"></i> Save QR
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex gap-1">
-                                    <button type="button" class="btn btn-sm btn-outline-primary py-1 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('7042944703@hdfc'); alert('UPI ID copied!');">
-                                        <i class="fa-regular fa-copy me-1"></i> Copy
-                                    </button>
-                                    <a href="upi://pay?pa=7042944703@hdfc&pn=NON%20STOP%20EDUCATION%20AND%20S%20W%20F&cu=INR" class="btn btn-sm btn-success py-1 px-2" style="font-size: 11px;">
-                                        <i class="fa-solid fa-bolt me-1"></i> Pay via UPI
-                                    </a>
+                                <div class="col-sm-7">
+                                    <div class="bg-white p-2.5 rounded-2 border mb-2">
+                                        <small class="text-muted d-block" style="font-size: 11px;">Official Foundation UPI ID</small>
+                                        <span class="fw-bold text-dark fs-6 font-monospace text-break">manisha23696-2@okhdfcbank</span>
+                                        <div class="d-flex flex-wrap gap-1 mt-2">
+                                            <button type="button" class="btn btn-sm btn-outline-primary py-1 px-2" style="font-size: 11px;" onclick="navigator.clipboard.writeText('manisha23696-2@okhdfcbank'); alert('UPI ID copied!');">
+                                                <i class="fa-regular fa-copy me-1"></i> Copy UPI ID
+                                            </button>
+                                            <a href="upi://pay?pa=manisha23696-2@okhdfcbank&pn=NON%20STOP%20EDUCATION%20AND%20S%20W%20F&cu=INR" class="btn btn-sm btn-success py-1 px-2" style="font-size: 11px;">
+                                                <i class="fa-solid fa-bolt me-1"></i> Pay via UPI
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <small class="text-muted d-block" style="font-size: 11px;">
+                                        <i class="fa-solid fa-circle-check text-success me-1"></i> Scan with Google Pay, PhonePe, Paytm, BHIM or any UPI banking app.
+                                    </small>
                                 </div>
                             </div>
-                            <small class="text-muted mt-2 d-block" style="font-size: 11px;">
-                                <i class="fa-solid fa-info-circle text-primary me-1"></i> Supports Google Pay, PhonePe, Paytm, BHIM and all banking UPI apps.
-                            </small>
                         </div>
 
                         <!-- Confirm Donation to WhatsApp Form -->
@@ -165,8 +178,8 @@ include 'includes/header.php';
                                     <div class="col-md-6">
                                         <label class="form-label small fw-bold text-dark mb-1">Payment Mode</label>
                                         <select id="donorMode" class="form-select form-select-sm form-control-custom">
-                                            <option value="UPI (7042944703@hdfc)">UPI (7042944703@hdfc)</option>
-                                            <option value="HDFC Bank Transfer / IMPS">HDFC Bank Transfer / IMPS</option>
+                                            <option value="UPI (manisha23696-2@okhdfcbank)">UPI (manisha23696-2@okhdfcbank / QR)</option>
+                                            <option value="HDFC Bank Transfer (50200052915390)">HDFC Bank Transfer (A/C: 50200052915390)</option>
                                             <option value="NEFT / RTGS">NEFT / RTGS</option>
                                             <option value="Other">Other</option>
                                         </select>

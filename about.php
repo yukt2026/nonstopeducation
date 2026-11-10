@@ -241,13 +241,28 @@ include 'includes/header.php';
                 <span class="eyebrow-tag mx-auto d-table mb-2">Dedicated Pillars</span>
                 <h3 class="fw-bold font-heading text-dark">Our Key Pillars &amp; Advisors</h3>
                 <p class="text-muted mx-auto small" style="max-width: 550px;">
-                    Passionate professionals providing legal governance, field operations, and media leadership to power our grassroots movement.
+                    Passionate professionals providing legal governance, field operations, and community leadership to power our grassroots movement.
                 </p>
             </div>
 
             <div class="row g-4 justify-content-center">
-                <!-- Adv. Shubham Thakur -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <!-- Ankit (Project Manager) -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
+                        <div class="founder-photo-wrap mb-3">
+                            <img src="images/team_ankit.png?v=2" alt="Ankit - Inside/Outside Project Manager" class="founder-cutout-img">
+                        </div>
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">PROJECT MANAGEMENT</span>
+                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Ankit</h4>
+                        <p class="text-muted small mb-2 fw-semibold">Inside/Outside Project Manager</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            Leading ground implementation, external community partnerships, learning centre setups, and coordinating seamless internal project operations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Adv. Shubham Thakur (Legal Advisor) -->
+                <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
                         <div class="founder-photo-wrap mb-3">
                             <img src="images/team_adv_shubham_thakur.png" alt="Adv. Shubham Thakur - Legal Advisor" class="founder-cutout-img">
@@ -260,34 +275,14 @@ include 'includes/header.php';
                         </p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Ankit -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
-                        <div class="founder-photo-wrap mb-3">
-                            <img src="images/team_ankit.png" alt="Ankit - Inside/Outside Project Manager" class="founder-cutout-img">
-                        </div>
-                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">PROJECT MANAGEMENT</span>
-                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Ankit</h4>
-                        <p class="text-muted small mb-2 fw-semibold">Inside/Outside Project Manager</p>
-                        <p class="text-muted small lh-base mb-3 px-2">
-                            Leading ground implementation, external community partnerships, learning centre setups, and coordinating seamless internal project operations.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Naveen -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
-                        <div class="founder-photo-wrap mb-3">
-                            <img src="images/team_naveen.png" alt="Naveen - Member & DOP Head" class="founder-cutout-img">
-                        </div>
-                        <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1 rounded-pill fw-bold mb-2" style="font-size: 0.76rem; letter-spacing: 0.5px;">MEDIA &amp; PRODUCTION</span>
-                        <h4 class="fw-bold font-heading text-dark mb-1 fs-5">Naveen</h4>
-                        <p class="text-muted small mb-2 fw-semibold">Member &amp; DOP Head</p>
-                        <p class="text-muted small lh-base mb-3 px-2">
-                            Directing visual documentary storytelling, media outreach, and broadcasting the NGO's real ground impact across our official YouTube channel and social handles.
-                        </p>
+            <!-- Volunteers Highlight Line -->
+            <div class="row justify-content-center mt-4 pt-2">
+                <div class="col-auto text-center" data-aos="fade-up">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white border border-2 border-danger border-opacity-25 rounded-pill px-4 py-2.5 shadow-sm">
+                        <i class="fa-solid fa-users text-danger fs-5 me-2.5"></i>
+                        <span class="fw-bold text-dark fs-6">with a team of Having 100+ volunteers in the team</span>
                     </div>
                 </div>
             </div>
