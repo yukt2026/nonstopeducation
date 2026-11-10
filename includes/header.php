@@ -19,7 +19,7 @@
     <!-- AOS.js CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css?v=2.4.0">
+    <link rel="stylesheet" href="css/style.css?v=2.5.0">
     <?php if (isset($extraHead)) echo $extraHead; ?>
 </head>
 <body class="<?php echo isset($bodyClass) ? $bodyClass : 'bg-canvas'; ?>">
@@ -84,36 +84,52 @@
                 </div>
             </div>
             
-            <!-- Mobile/Tablet Layout -->
-            <div class="d-lg-none d-flex flex-column gap-1 py-1">
-                <!-- Row 1: Badges & Phone Contact -->
-                <div class="d-flex justify-content-between align-items-center w-100 flex-wrap gap-1">
+            <!-- Mobile/Tablet Layout (Refined & Compact) -->
+            <div class="d-lg-none d-flex flex-column gap-1.5 py-1.5">
+                <!-- Row 1: Single Sleek Row with Badges, Socials & Direct Call -->
+                <div class="mobile-top-row d-flex justify-content-between align-items-center w-100">
+                    <!-- Left: Govt Regd & Direct Socials -->
                     <div class="d-flex align-items-center gap-1.5">
-                        <span class="badge top-regd-pill" style="font-size: 0.68rem; padding: 4px 8px;">
+                        <span class="badge top-regd-pill-mobile text-nowrap">
                             <i class="fa-solid fa-shield-halved text-success me-1"></i> Govt. Regd.
                         </span>
-                        <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="top-instagram-badge" style="font-size: 0.72rem; padding: 3px 8px;" title="Instagram">
-                            <i class="fa-brands fa-instagram me-1"></i> @nonstop_education
+                        
+                        <!-- Instagram Button with Gradient -->
+                        <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="mobile-social-btn mobile-insta" title="Instagram @nonstop_education">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <!-- WhatsApp Button -->
+                        <a href="https://wa.me/918700549755" target="_blank" rel="noopener noreferrer" class="mobile-social-btn mobile-wa" title="WhatsApp +91 87005 49755">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <!-- YouTube Button -->
+                        <a href="https://youtube.com/@non_stop_education?si=VHYRZ3ueUGXyQQlE" target="_blank" rel="noopener noreferrer" class="mobile-social-btn mobile-yt" title="YouTube Channel">
+                            <i class="fa-brands fa-youtube"></i>
                         </a>
                     </div>
-                    <div class="d-flex align-items-center gap-1.5">
-                        <a href="https://wa.me/918700549755" target="_blank" rel="noopener noreferrer" class="top-social-icon icon-wa" style="width: 26px; height: 26px; font-size: 0.78rem;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="https://youtube.com/@non_stop_education?si=VHYRZ3ueUGXyQQlE" target="_blank" rel="noopener noreferrer" class="top-social-icon icon-yt" style="width: 26px; height: 26px; font-size: 0.78rem;" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="tel:+917042944703" class="top-helpline-link" style="font-size: 0.8rem; padding: 3px 8px;">
+
+                    <!-- Right: Call Button with Direct Number -->
+                    <div class="d-flex align-items-center">
+                        <a href="tel:+917042944703" class="mobile-call-pill text-nowrap" title="Call Helpline +91 70429 44703">
                             <i class="fa-solid fa-phone me-1 text-warning"></i> 70429 44703
                         </a>
                     </div>
                 </div>
-                <!-- Row 2: News Updates Marquee -->
-                <div class="news-ticker-container d-flex align-items-center w-100" style="height: 28px;">
-                    <div class="news-ticker-badge px-2" style="font-size: 0.7rem; height: 100%;">
+
+                <!-- Row 2: Sleek Live News Ticker Strip -->
+                <div class="mobile-ticker-row d-flex align-items-center w-100">
+                    <div class="mobile-ticker-tag flex-shrink-0">
                         <span class="live-pulse-dot me-1"></span> Updates
                     </div>
-                    <div class="news-ticker-content">
-                        <div class="news-ticker-scroll" style="animation-duration: 25s;">
-                            <span>“Quality Education &amp; Welfare for Every Child — Call: +91 70429 44703 | WhatsApp: 8700549755”</span>
+                    <div class="news-ticker-content flex-grow-1">
+                        <div class="news-ticker-scroll" style="animation-duration: 22s;">
+                            <span>“Quality Education &amp; Child Welfare — Helpline: +91 70429 44703 | WhatsApp: 8700549755”</span>
                             <span class="ticker-separator"></span>
-                            <span>“Join Nonstop Education and Social Welfare Foundation Today!”</span>
+                            <span>“Founded by Manisha (Founder) &amp; Versha (Co-Founder)”</span>
+                            <span class="ticker-separator"></span>
+                            <span>“Empowering Every Child — Donate or Join As A Volunteer!”</span>
                         </div>
                     </div>
                 </div>

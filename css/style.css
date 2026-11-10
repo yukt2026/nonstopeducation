@@ -1291,15 +1291,30 @@ img {
     
     .navbar-brand-custom {
         font-size: 1.15rem !important;
-        gap: 8px !important;
+        gap: 6px !important;
     }
     
     .navbar-brand-custom img {
-        height: 50px !important;
+        height: 40px !important;
+    }
+
+    .brand-text-main {
+        font-size: 1.05rem !important;
+        font-weight: 800;
+        line-height: 1.1;
+        white-space: nowrap;
+    }
+
+    .brand-text-sub {
+        font-size: 0.56rem !important;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        line-height: 1.1;
+        white-space: nowrap;
     }
 
     .navbar-toggler {
-        padding: 6px 10px !important;
+        padding: 5px 8px !important;
         border: 1px solid var(--border) !important;
         border-radius: 8px !important;
         background-color: var(--light);
@@ -1799,6 +1814,118 @@ img {
 
 .top-contact-divider {
     color: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile Top Utility Bar Elements */
+.top-regd-pill-mobile {
+    background: rgba(14, 122, 61, 0.22);
+    color: #4ADE80 !important;
+    border: 1px solid rgba(74, 222, 128, 0.4);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.68rem;
+    padding: 3px 8px;
+    letter-spacing: 0.2px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.mobile-social-btn {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.78rem;
+    text-decoration: none !important;
+    transition: transform 0.15s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    flex-shrink: 0;
+}
+
+.mobile-social-btn.mobile-insta {
+    background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F59E0B 100%);
+    color: #FFFFFF !important;
+    box-shadow: 0 1px 4px rgba(253, 29, 29, 0.35);
+}
+
+.mobile-social-btn.mobile-wa {
+    background: #25D366;
+    color: #FFFFFF !important;
+    box-shadow: 0 1px 4px rgba(37, 211, 102, 0.35);
+}
+
+.mobile-social-btn.mobile-yt {
+    background: #FF0000;
+    color: #FFFFFF !important;
+    box-shadow: 0 1px 4px rgba(255, 0, 0, 0.35);
+}
+
+.mobile-social-btn:active {
+    transform: scale(0.92);
+}
+
+.mobile-call-pill {
+    background: linear-gradient(135deg, rgba(229, 47, 55, 0.25) 0%, rgba(229, 47, 55, 0.12) 100%);
+    color: #FFFFFF !important;
+    border: 1px solid rgba(229, 47, 55, 0.6);
+    border-radius: 50px;
+    padding: 3px 9px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    letter-spacing: 0.2px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(229, 47, 55, 0.25);
+    transition: all 0.2s ease;
+}
+
+.mobile-call-pill:hover,
+.mobile-call-pill:active {
+    background: #E52F37;
+    color: #FFFFFF !important;
+}
+
+.mobile-ticker-row {
+    height: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.mobile-ticker-tag {
+    background: linear-gradient(135deg, #E52F37 0%, #B91C1C 100%);
+    color: #FFFFFF;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0 8px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+    .brand-text-main {
+        font-size: 0.90rem !important;
+    }
+    .brand-text-sub {
+        font-size: 0.48rem !important;
+        letter-spacing: 0.2px;
+    }
+    .top-regd-pill-mobile {
+        font-size: 0.60rem;
+        padding: 2px 5px;
+    }
+    .mobile-call-pill {
+        font-size: 0.70rem;
+        padding: 2px 7px;
+    }
 }
 
 /* ==========================================
