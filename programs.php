@@ -54,7 +54,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                    <img src="images/seminar_smart_class.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Non Stop Education Smart Classroom Centres">
+                    <img src="images/real_slum_teaching.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Non Stop Education Slum Study Hub">
                 </div>
             </div>
 
@@ -91,7 +91,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
-                    <img src="images/real_activity_3.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Child Welfare Non Stop Foundation">
+                    <img src="images/real_ground_leader_kids.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Non Stop Education Child Welfare & Community Care">
                 </div>
             </div>
 

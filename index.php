@@ -857,23 +857,23 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <!-- 5. School Classroom Activity -->
+                <!-- 5. Slum Study Hub -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
-                        <img src="images/seminar_school_activity.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Samagra Shiksha Student Activities">
+                        <img src="images/real_slum_teaching.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Slum Study Hub Children Learning">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Samagra Shiksha</span>
-                            <h6 class="mb-0 text-white small fw-bold">Student Guidance &amp; Activities</h6>
+                            <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Slum Study Hub</span>
+                            <h6 class="mb-0 text-white small fw-bold">Volunteer Outdoor Teaching</h6>
                         </div>
                     </div>
                 </div>
-                <!-- 6. Ground Learning Camp -->
+                <!-- 6. Founder & Children -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="350">
                     <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
-                        <img src="images/real_activity_1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Underprivileged Children Free Education Camp">
+                        <img src="images/real_ground_leader_kids.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Founder Connecting with Slum Children">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-info text-dark rounded-pill mb-1" style="font-size: 10px;">Slum Learning</span>
-                            <h6 class="mb-0 text-white small fw-bold">Community Education Centre</h6>
+                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Community Care</span>
+                            <h6 class="mb-0 text-white small fw-bold">Grassroots Bonding &amp; Care</h6>
                         </div>
                     </div>
                 </div>

@@ -54,7 +54,7 @@ include 'includes/header.php';
                 </div>
 
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                    <img src="images/real_activity_3.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Child Welfare Drive">
+                    <img src="images/real_ground_leader_kids.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 360px; object-fit: cover;" alt="Non Stop Education Child Welfare & Community Care">
                 </div>
             </div>
         </div>

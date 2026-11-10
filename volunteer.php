@@ -62,6 +62,14 @@ include 'includes/header.php';
                         </div>
                     </div>
 
+                    <div class="rounded-4 overflow-hidden shadow-xs border mb-3">
+                        <img src="images/real_slum_teaching.jpg" class="w-100 img-fluid" style="height: 220px; object-fit: cover;" alt="Non Stop Education Volunteer Teaching Session">
+                        <div class="p-2.5 bg-white text-center">
+                            <span class="badge bg-primary bg-opacity-10 text-primary rounded-pill fw-bold px-2 py-0.5 small mb-1" style="font-size: 10px;">GROUND VOLUNTEERING</span>
+                            <p class="small text-muted mb-0 fw-semibold">"Teaching children directly in communities builds genuine hope."</p>
+                        </div>
+                    </div>
+
                     <div class="p-2.5 bg-white rounded-3 border d-flex align-items-center gap-2">
                         <i class="fa-solid fa-phone-volume text-danger fs-5"></i>
                         <div>

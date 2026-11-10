@@ -231,6 +231,26 @@ include 'includes/header.php';
                         <p class="small text-white-50 mb-0" style="font-size: 11px;">Grassroots mission to protect and empower.</p>
                     </div>
                 </div>
+
+                <!-- Item 17: Slum Study Hub -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/real_slum_teaching.jpg" alt="Slum Study Hub Children Learning with Volunteer Teacher">
+                    <div class="gallery-overlay">
+                        <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Slum Study Hub</span>
+                        <h6 class="fw-bold mb-0 text-white">Outdoor Study Centre</h6>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Volunteer teaching foundational reading &amp; notebook work.</p>
+                    </div>
+                </div>
+
+                <!-- Item 18: Grassroots Leader & Children -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+                    <img src="images/real_ground_leader_kids.jpg" alt="Founder with Slum Community Children">
+                    <div class="gallery-overlay">
+                        <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Community Care</span>
+                        <h6 class="fw-bold mb-0 text-white">Grassroots Bonding &amp; Care</h6>
+                        <p class="small text-white-50 mb-0" style="font-size: 11px;">Deep empathy and direct connection with slum children.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
