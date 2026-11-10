@@ -29,6 +29,7 @@
                         <li><a href="gallery.php">Gallery &amp; Stories</a></li>
                         <li><a href="volunteer.php">Volunteer With Us</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="text-warning fw-semibold"><i class="fa-solid fa-file-pdf me-1"></i> Official Brochure (PDF)</a></li>
                         <li><a href="donate.php" class="text-danger fw-bold"><i class="fa-solid fa-heart me-1"></i> Donate Now</a></li>
                     </ul>
                 </div>

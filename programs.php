@@ -133,7 +133,7 @@ include 'includes/header.php';
             </div>
 
             <!-- Pillar 4: Skill Development & Social Awareness -->
-            <div class="row align-items-center g-4 flex-lg-row-reverse" id="skill-development">
+            <div class="row align-items-center g-4 flex-lg-row-reverse mb-4 pb-3 border-bottom border-dark border-opacity-10" id="skill-development">
                 <div class="col-lg-6 ps-lg-4" data-aos="fade-left">
                     <span class="badge bg-warning text-dark py-1 px-2.5 rounded-pill mb-2" style="font-size: 11px; font-weight: 700;">INITIATIVE 04</span>
                     <h3 class="fw-bold mb-2 font-heading text-dark">Skill Development &amp; Social Awareness</h3>
@@ -166,6 +166,52 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
                     <img src="images/hero_education_nonstop.jpg" class="img-fluid rounded-4 shadow-sm w-100" style="height: 330px; object-fit: cover;" alt="Skill Development Non Stop Foundation">
+                </div>
+            </div>
+
+            <!-- Pillar 5: POSH & POCSO Awareness Training Program -->
+            <div class="row align-items-center g-4" id="posh-pocso">
+                <div class="col-lg-6 pe-lg-4" data-aos="fade-right">
+                    <span class="badge bg-danger text-white py-1 px-2.5 rounded-pill mb-2" style="font-size: 11px; font-weight: 700;">INITIATIVE 05</span>
+                    <h3 class="fw-bold mb-2 font-heading text-dark">POSH &amp; POCSO Awareness Training Program</h3>
+                    <p class="text-muted small mb-3 lh-base">
+                        Conducted by our Founder &amp; Certified Trainer <strong>Manisha</strong>, our specialized sessions bring statutory legal awareness, victim assistance, and institutional safety directly to colleges, universities, schools, and organizations.
+                    </p>
+                    
+                    <div class="p-3 bg-white rounded-3 border-start border-danger border-4 shadow-xs mb-3">
+                        <p class="text-dark small lh-base mb-2 fst-italic">
+                            "Alongside my NGO leadership, I work as a POSH and POCSO Awareness Trainer, conducting awareness sessions on workplace safety, child protection, legal rights, personal safety, and gender sensitivity. My vision is to create an educated, empowered, and safer society where every individual, especially women and children, feels protected, respected, and confident."
+                        </p>
+                        <small class="fw-bold text-danger d-block">— Manisha, Founder &amp; POSH/POCSO Trainer</small>
+                    </div>
+
+                    <ul class="list-unstyled d-flex flex-column gap-2 mb-3">
+                        <li class="d-flex align-items-center gap-2 bg-white p-2.5 rounded-3 shadow-xs border-start border-danger border-3 small">
+                            <i class="fa-solid fa-building-shield text-danger"></i>
+                            <span class="fw-semibold text-dark">POSH Act (2013) &amp; Workplace Safety Compliance for Campuses</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 bg-white p-2.5 rounded-3 shadow-xs border-start border-primary border-3 small">
+                            <i class="fa-solid fa-child-shield text-primary"></i>
+                            <span class="fw-semibold text-dark">POCSO Act, Child Rights &amp; Personal Safety in Schools</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 bg-white p-2.5 rounded-3 shadow-xs border-start border-success border-3 small">
+                            <i class="fa-solid fa-scale-balanced text-success"></i>
+                            <span class="fw-semibold text-dark">Legal Rights, Police Joint Drives &amp; Victim Support Help</span>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="https://wa.me/918700549755?text=Hello%20Manisha%20Ji%2C%20we%20want%20to%20organize%20a%20POSH%20or%20POCSO%20session." target="_blank" rel="noopener noreferrer" class="btn btn-pill btn-pill-accent btn-sm">
+                            <i class="fa-brands fa-whatsapp me-1"></i> Book A Training Session
+                        </a>
+                        <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-pill btn-pill-outline btn-sm">
+                            <i class="fa-solid fa-file-pdf me-1"></i> Download POSH Brochure
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+                    <div class="rounded-4 overflow-hidden shadow-sm border" style="height: 330px;">
+                        <img src="images/seminar_posh_act.jpg" class="w-100 h-100" style="object-fit: cover;" alt="POSH and POCSO Awareness Training Session">
+                    </div>
                 </div>
             </div>
 

@@ -179,6 +179,7 @@
                             <li><a class="dropdown-item py-2" href="program-child-welfare.php"><i class="fa-solid fa-child-reaching text-secondary me-2"></i> Child Welfare &amp; Nutrition</a></li>
                             <li><a class="dropdown-item py-2" href="program-women-empowerment.php"><i class="fa-solid fa-female text-danger me-2"></i> Women Empowerment</a></li>
                             <li><a class="dropdown-item py-2" href="program-skill-development.php"><i class="fa-solid fa-laptop-code text-primary me-2"></i> Skill Development &amp; Community</a></li>
+                            <li><a class="dropdown-item py-2" href="programs.php#posh-pocso"><i class="fa-solid fa-shield-halved text-danger me-2"></i> POSH &amp; POCSO Training</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -192,6 +193,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo (isset($activePage) && $activePage === 'contact') ? 'active' : ''; ?>" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-semibold d-inline-flex align-items-center" href="images/NonStopEducation_Brochure.pdf" target="_blank" title="Download Official Brochure">
+                            <i class="fa-solid fa-file-pdf text-danger me-1"></i> Brochure
+                        </a>
                     </li>
                 </ul>
 

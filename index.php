@@ -37,16 +37,16 @@ include 'includes/header.php';
             </div>
             <!-- Slide 2: Education & School Centres -->
             <div class="carousel-item">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_3.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/seminar_smart_class.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center">
                             <span class="badge bg-primary text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
-                                <i class="fa-solid fa-school me-1"></i> Community Learning Centres
+                                <i class="fa-solid fa-school me-1"></i> Smart Classrooms &amp; Learning Centres
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Nurturing Young Minds In Slums &amp; Rural Areas</h1>
+                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Nurturing Young Minds In Slums &amp; Govt. Schools</h1>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
-                                Free after-school learning resources, foundational literacy, and essential academic assistance to government school students and slum children.
+                                Free digital smart classroom sessions, foundational literacy, and essential academic assistance to children.
                             </p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
                                 <a href="program-education.php" class="btn btn-pill btn-pill-accent btn-md"><i class="fa-solid fa-book-open me-1"></i> Our School Centres</a>
@@ -77,22 +77,22 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <!-- Slide 4: Women Empowerment -->
+            <!-- Slide 4: Women Empowerment & POSH Training -->
             <div class="carousel-item">
-                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/real_activity_5.jpg');"></div>
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), url('images/seminar_college_auditorium.jpg');"></div>
                 <div class="carousel-caption-custom container">
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-9 text-center">
                             <span class="badge bg-danger text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
-                                <i class="fa-solid fa-female me-1"></i> Women Empowerment
+                                <i class="fa-solid fa-shield-halved me-1"></i> Women Rights, POSH &amp; Safety
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Empowering Women, Uplifting Entire Communities</h1>
+                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Empowering Women, Ensuring Safety in Colleges &amp; Communities</h1>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
-                                Vocational skills training, financial literacy, and community self-reliance to help women stand tall as proud breadwinners.
+                                Free POSH Act awareness, women's legal rights seminars in universities, and digital marketing scholarships for girl students.
                             </p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="program-women-empowerment.php" class="btn btn-pill btn-pill-accent btn-md"><i class="fa-solid fa-scissors me-1"></i> Women Programs</a>
-                                <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-phone me-1"></i> Call: 70429 44703</a>
+                                <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-pill btn-pill-accent btn-md"><i class="fa-solid fa-file-pdf me-1"></i> Download Brochure</a>
+                                <a href="program-women-empowerment.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-graduation-cap me-1"></i> Women Initiatives</a>
                             </div>
                         </div>
                     </div>
@@ -280,11 +280,11 @@ include 'includes/header.php';
                         <div class="founder-photo-wrap mb-3">
                             <img src="images/founder_manisha.png" alt="Manisha - Founder" class="founder-cutout-img">
                         </div>
-                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER</span>
+                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER &amp; POSH/POCSO TRAINER</span>
                         <h3 class="fw-bold font-heading text-dark mb-1">Manisha</h3>
-                        <p class="text-muted small mb-2">Founder &amp; Managing Trustee</p>
+                        <p class="text-muted small mb-2 fw-semibold">Founder &amp; POSH / POCSO Awareness Trainer</p>
                         <p class="text-muted small lh-base mb-3 px-2">
-                            "Education is the greatest equalizer. Every child deserves the opportunity to learn, read, and achieve their dreams regardless of their background."
+                            "Dedicated to empowering underprivileged children and communities through education and social welfare, alongside conducting awareness sessions on workplace safety, child protection, legal rights, and gender sensitivity."
                         </p>
                         <div class="mt-auto pt-2">
                             <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
@@ -455,6 +455,143 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- POSH & POCSO Awareness Training Program Section -->
+    <section class="section-padding bg-white border-top border-bottom position-relative overflow-hidden" id="posh-pocso">
+        <div class="container position-relative z-1">
+            <div class="text-center mb-4" data-aos="fade-up">
+                <span class="eyebrow-tag mx-auto d-table mb-2">Institutional Safety &amp; Rights Advocacy</span>
+                <h2 class="fw-bold font-heading text-dark">POSH &amp; POCSO Awareness Training Program</h2>
+                <p class="text-muted mx-auto mt-2" style="max-width: 680px;">
+                    Dedicated awareness sessions on workplace safety, child protection, legal rights, personal safety, and gender sensitivity across colleges, schools, and organizations.
+                </p>
+                <div class="mx-auto" style="width: 50px; height: 3px; background: linear-gradient(90deg, #183B76, #E52F37); border-radius: var(--radius-pill); margin-top: 10px;"></div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+                <!-- Left: Founder Trainer Profile & Statement -->
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="glass-panel bg-canvas p-4 rounded-4 border shadow-sm position-relative overflow-hidden">
+                        <div class="d-flex align-items-center gap-3 mb-3 pb-3 border-bottom">
+                            <div class="rounded-circle overflow-hidden shadow-xs border border-2 border-danger flex-shrink-0" style="width: 72px; height: 72px;">
+                                <img src="images/seminar_speaker_close.jpg" alt="Manisha - POSH and POCSO Awareness Trainer" class="w-100 h-100" style="object-fit: cover;">
+                            </div>
+                            <div>
+                                <span class="badge bg-danger bg-opacity-10 text-danger rounded-pill fw-bold px-2 py-0.5 small mb-1" style="font-size: 10px; letter-spacing: 0.5px;">TRAINER &amp; FOUNDER</span>
+                                <h4 class="fw-bold font-heading text-dark mb-0 fs-5">Manisha</h4>
+                                <p class="text-muted small mb-0 fw-semibold">Founder, NSE &amp; Certified POSH / POCSO Trainer</p>
+                            </div>
+                        </div>
+
+                        <div class="position-relative ps-3 border-start border-3 border-danger mb-3">
+                            <p class="text-dark small lh-base mb-2 fst-italic">
+                                "I am the Founder of Non Stop Education &amp; Social Welfare Foundation (NSE), dedicated to empowering underprivileged children and communities through education, awareness, and social welfare initiatives."
+                            </p>
+                            <p class="text-dark small lh-base mb-2 fst-italic">
+                                "Alongside my NGO leadership, I work as a POSH and POCSO Awareness Trainer, conducting awareness sessions on workplace safety, child protection, legal rights, personal safety, and gender sensitivity."
+                            </p>
+                            <p class="text-dark small lh-base mb-0 fw-semibold text-danger">
+                                "My vision is to create an educated, empowered, and safer society where every individual, especially women and children, feels protected, respected, and confident."
+                            </p>
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-2 pt-2">
+                            <a href="https://wa.me/918700549755?text=Hello%20Manisha%20Ji%2C%20we%20would%20like%20to%20invite%20you%20for%20a%20POSH%2FPOCSO%20Awareness%20Training%20Session." target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-success rounded-pill px-3 py-1.5 fw-semibold shadow-xs">
+                                <i class="fa-brands fa-whatsapp me-1"></i> Book Training Session
+                            </a>
+                            <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
+                                <i class="fa-solid fa-file-pdf me-1"></i> View POSH Brochure
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Program Pillars & Seminar Photos -->
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="row g-3 mb-3">
+                        <!-- Card 1: Workplace Safety (POSH) -->
+                        <div class="col-sm-6">
+                            <div class="bg-canvas p-3 rounded-3 border h-100 shadow-xs">
+                                <div class="d-flex align-items-center gap-2 mb-1.5">
+                                    <div class="bg-danger bg-opacity-10 text-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                                        <i class="fa-solid fa-building-shield fs-6"></i>
+                                    </div>
+                                    <h6 class="fw-bold mb-0 text-dark">Workplace Safety &amp; POSH</h6>
+                                </div>
+                                <p class="text-muted small mb-0 lh-base" style="font-size: 12px;">
+                                    College, university &amp; corporate compliance, understanding the POSH Act 2013, Internal Complaints Committee (ICC) functions, and zero-tolerance frameworks.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Child Protection (POCSO) -->
+                        <div class="col-sm-6">
+                            <div class="bg-canvas p-3 rounded-3 border h-100 shadow-xs">
+                                <div class="d-flex align-items-center gap-2 mb-1.5">
+                                    <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                                        <i class="fa-solid fa-child-shield fs-6"></i>
+                                    </div>
+                                    <h6 class="fw-bold mb-0 text-dark">Child Protection (POCSO)</h6>
+                                </div>
+                                <p class="text-muted small mb-0 lh-base" style="font-size: 12px;">
+                                    POCSO Act awareness in schools, safeguarding juveniles, personal boundary education ("Safe &amp; Unsafe Touch"), and mandatory reporting protocols.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Legal Rights & Personal Safety -->
+                        <div class="col-sm-6">
+                            <div class="bg-canvas p-3 rounded-3 border h-100 shadow-xs">
+                                <div class="d-flex align-items-center gap-2 mb-1.5">
+                                    <div class="bg-success bg-opacity-10 text-success rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                                        <i class="fa-solid fa-scale-balanced fs-6"></i>
+                                    </div>
+                                    <h6 class="fw-bold mb-0 text-dark">Legal Rights &amp; Victim Support</h6>
+                                </div>
+                                <p class="text-muted small mb-0 lh-base" style="font-size: 12px;">
+                                    Constitutional protections, reporting without fear or stigma, legal remedies, emergency helplines, and direct victim counseling assistance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Gender Sensitivity & Respect -->
+                        <div class="col-sm-6">
+                            <div class="bg-canvas p-3 rounded-3 border h-100 shadow-xs">
+                                <div class="d-flex align-items-center gap-2 mb-1.5">
+                                    <div class="bg-warning bg-opacity-10 text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                                        <i class="fa-solid fa-heart-circle-check fs-6"></i>
+                                    </div>
+                                    <h6 class="fw-bold mb-0 text-dark">Gender Sensitivity &amp; Culture</h6>
+                                </div>
+                                <p class="text-muted small mb-0 lh-base" style="font-size: 12px;">
+                                    Interactive campus role-plays, dismantling gender bias, bystander intervention strategies, and cultivating mutual respect across all spaces.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Proof Strip: Real Seminar Photos -->
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <div class="rounded-3 overflow-hidden shadow-xs border" style="height: 110px;">
+                                <img src="images/seminar_posh_act.jpg" class="w-100 h-100" style="object-fit: cover;" alt="POSH Act Seminar">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="rounded-3 overflow-hidden shadow-xs border" style="height: 110px;">
+                                <img src="images/seminar_dignitaries_police.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Delhi Police Joint Workshop">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="rounded-3 overflow-hidden shadow-xs border" style="height: 110px;">
+                                <img src="images/seminar_college_auditorium.jpg" class="w-100 h-100" style="object-fit: cover;" alt="College Auditorium Students">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Our Impact Stats Section -->
     <section class="section-padding bg-canvas border-top border-bottom position-relative" id="impact">
         <div class="container">
@@ -584,13 +721,95 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Official Brochure & POSH / Women Safety Section -->
+    <section class="section-padding bg-white border-top border-bottom position-relative overflow-hidden" id="brochure">
+        <div class="container position-relative z-1">
+            <div class="row align-items-center g-4 g-lg-5">
+                <div class="col-lg-5 text-center" data-aos="fade-right">
+                    <div class="position-relative d-inline-block shadow-lg rounded-4 overflow-hidden border border-2 border-danger border-opacity-25" style="max-width: 340px;">
+                        <img src="images/brochure_cover.jpg" alt="Non Stop Education & Social Welfare Foundation Official Brochure Cover" class="img-fluid w-100" style="object-fit: cover;">
+                        <div class="p-3 bg-dark text-white text-center">
+                            <span class="badge bg-danger rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase" style="font-size: 11px;">Official Publication</span>
+                            <h6 class="fw-bold mb-1 font-heading text-white">Empowering Women, Ensuring Safety</h6>
+                            <p class="small text-white-50 mb-2.5" style="font-size: 12px;">Women's Rights, POSH Act Compliance &amp; Student Scholarships</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a href="images/NonStopEducation_Brochure.pdf" download="NonStopEducation_Brochure.pdf" class="btn btn-danger btn-sm rounded-pill px-3 py-1.5 fw-bold shadow-sm">
+                                    <i class="fa-solid fa-download me-1"></i> Download PDF
+                                </a>
+                                <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3 py-1.5 fw-semibold">
+                                    <i class="fa-solid fa-eye me-1"></i> View Online
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7" data-aos="fade-left">
+                    <span class="eyebrow-tag mb-2">Official Foundation Literature</span>
+                    <h2 class="fw-bold font-heading text-dark mb-3">Empowering Women, Ensuring Safety &amp; Education</h2>
+                    <p class="text-muted lh-base mb-3">
+                        Our comprehensive foundation brochure outlines our core initiatives across women's rights, POSH (Prevention of Sexual Harassment) training sessions in colleges, survivor support, and scholarship programs for youth.
+                    </p>
+                    
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <div class="p-3 rounded-3 bg-canvas border h-100">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <i class="fa-solid fa-scale-balanced text-primary fs-5"></i>
+                                    <h6 class="fw-bold mb-0 text-dark">POSH &amp; Women Rights</h6>
+                                </div>
+                                <p class="small text-muted mb-0">Free 2-3 hour awareness &amp; compliance sessions for university, college &amp; school campuses.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 rounded-3 bg-canvas border h-100">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <i class="fa-solid fa-laptop-code text-success fs-5"></i>
+                                    <h6 class="fw-bold mb-0 text-dark">Digital Scholarships</h6>
+                                </div>
+                                <p class="small text-muted mb-0">Digital marketing course scholarships for college &amp; government school students.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 rounded-3 bg-canvas border h-100">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <i class="fa-solid fa-graduation-cap text-danger fs-5"></i>
+                                    <h6 class="fw-bold mb-0 text-dark">500+ Students Educated</h6>
+                                </div>
+                                <p class="small text-muted mb-0">Empowering marginalized youth through free learning centres and legal rights awareness.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 rounded-3 bg-canvas border h-100">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <i class="fa-solid fa-location-dot text-warning fs-5"></i>
+                                    <h6 class="fw-bold mb-0 text-dark">Delhi &amp; Chandigarh</h6>
+                                </div>
+                                <p class="small text-muted mb-0">Active grassroots branches and nationwide mission in association with Laxmi Foundation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-wrap gap-2 align-items-center">
+                        <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-pill btn-pill-accent btn-md shadow-sm">
+                            <i class="fa-solid fa-file-pdf me-1.5"></i> Read Full Brochure (PDF)
+                        </a>
+                        <a href="contact.php" class="btn btn-pill btn-pill-outline btn-md">
+                            <i class="fa-solid fa-envelope me-1.5"></i> Request Seminar at Your College
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Gallery Preview -->
     <section class="section-padding bg-canvas border-top">
         <div class="container">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-3" data-aos="fade-up">
                 <div>
-                    <span class="eyebrow-tag mb-1">Moments of Hope</span>
-                    <h3 class="fw-bold font-heading text-dark mb-0">Gallery &amp; Success Stories</h3>
+                    <span class="eyebrow-tag mb-1">Real Ground Work</span>
+                    <h3 class="fw-bold font-heading text-dark mb-0">College Seminars, Smart Classes &amp; Welfare Drives</h3>
                 </div>
                 <a href="gallery.php" class="btn btn-pill btn-pill-outline btn-sm mt-2 mt-md-0">
                     View Full Gallery <i class="fa-solid fa-arrow-right ms-1"></i>
@@ -598,60 +817,67 @@ include 'includes/header.php';
             </div>
 
             <div class="row g-3">
+                <!-- 1. POSH Act Presentation -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Free Community Education Drive">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/seminar_posh_act.jpg" class="w-100 h-100" style="object-fit: cover;" alt="POSH Act Seminar in College">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Education</span>
-                            <h6 class="mb-0 text-white small fw-bold">Slum Learning Centre</h6>
+                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Women Rights</span>
+                            <h6 class="mb-0 text-white small fw-bold">POSH Act Awareness Seminar</h6>
                         </div>
                     </div>
                 </div>
+                <!-- 2. Smart Classroom -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="150">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_2.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Guidance and Classroom">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/seminar_smart_class.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Digital Smart Classroom">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Mentorship</span>
-                            <h6 class="mb-0 text-white small fw-bold">Ground Student Support</h6>
+                            <span class="badge bg-primary rounded-pill mb-1" style="font-size: 10px;">Smart Education</span>
+                            <h6 class="mb-0 text-white small fw-bold">Smart Digital Learning Centre</h6>
                         </div>
                     </div>
                 </div>
+                <!-- 3. Dignitaries & Police -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_3.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Child Welfare & Essentials Distribution">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/seminar_dignitaries_police.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Delhi Police & Dignitaries at Safety Workshop">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-success rounded-pill mb-1" style="font-size: 10px;">Welfare</span>
-                            <h6 class="mb-0 text-white small fw-bold">Stationery &amp; Food Drives</h6>
+                            <span class="badge bg-success rounded-pill mb-1" style="font-size: 10px;">Safety Drive</span>
+                            <h6 class="mb-0 text-white small fw-bold">Delhi Police Joint Safety Seminar</h6>
                         </div>
                     </div>
                 </div>
+                <!-- 4. College Auditorium Audience -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="250">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_4.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Interactive Learning Classes">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/seminar_college_auditorium.jpg" class="w-100 h-100" style="object-fit: cover;" alt="College Auditorium Students">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Classroom</span>
-                            <h6 class="mb-0 text-white small fw-bold">Active Academic Classes</h6>
+                            <span class="badge bg-warning text-dark rounded-pill mb-1" style="font-size: 10px;">Campus Youth</span>
+                            <h6 class="mb-0 text-white small fw-bold">College Students Participation</h6>
                         </div>
                     </div>
                 </div>
+                <!-- 5. School Classroom Activity -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_5.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Community Empowerment Camp">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/seminar_school_activity.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Samagra Shiksha Student Activities">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Empowerment</span>
-                            <h6 class="mb-0 text-white small fw-bold">Community Skill Workshop</h6>
+                            <span class="badge bg-danger rounded-pill mb-1" style="font-size: 10px;">Samagra Shiksha</span>
+                            <h6 class="mb-0 text-white small fw-bold">Student Guidance &amp; Activities</h6>
                         </div>
                     </div>
                 </div>
+                <!-- 6. Ground Learning Camp -->
                 <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="350">
-                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 200px;">
-                        <img src="images/real_activity_6.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Dedicated Volunteers on Field">
+                    <div class="rounded-3 overflow-hidden shadow-xs position-relative" style="height: 210px;">
+                        <img src="images/real_activity_1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Underprivileged Children Free Education Camp">
                         <div class="position-absolute bottom-0 start-0 w-100 p-2 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.85));">
-                            <span class="badge bg-info text-dark rounded-pill mb-1" style="font-size: 10px;">Volunteers</span>
-                            <h6 class="mb-0 text-white small fw-bold">Grassroots Outreach Team</h6>
+                            <span class="badge bg-info text-dark rounded-pill mb-1" style="font-size: 10px;">Slum Learning</span>
+                            <h6 class="mb-0 text-white small fw-bold">Community Education Centre</h6>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>

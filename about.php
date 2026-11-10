@@ -201,11 +201,11 @@ include 'includes/header.php';
                         <div class="founder-photo-wrap mb-3">
                             <img src="images/founder_manisha.png" alt="Manisha - Founder" class="founder-cutout-img">
                         </div>
-                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER</span>
+                        <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">FOUNDER &amp; POSH/POCSO TRAINER</span>
                         <h3 class="fw-bold font-heading text-dark mb-1">Manisha</h3>
-                        <p class="text-muted small mb-3">Founder &amp; Managing Trustee</p>
-                        <p class="text-muted small lh-base mb-4 px-2">
-                            "Education is not a privilege; it is the fundamental right of every child. Our lifelong commitment is to dismantle generational poverty through free community learning centres, child health drives, and inclusive growth."
+                        <p class="text-muted small mb-2 fw-semibold">Founder &amp; POSH / POCSO Awareness Trainer</p>
+                        <p class="text-muted small lh-base mb-3 px-2">
+                            "Alongside my NGO leadership, I work as a POSH and POCSO Awareness Trainer, conducting sessions on workplace safety, child protection, legal rights, personal safety, and gender sensitivity. My vision is to create an educated, empowered, and safer society where women and children feel protected, respected, and confident."
                         </p>
                         <div class="mt-auto pt-2">
                             <a href="https://www.instagram.com/nonstop_education?obrf=MXJzMHY1aWM0Mmg3Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold">
@@ -324,6 +324,36 @@ include 'includes/header.php';
                         <div class="icon-box mx-auto mb-2 text-warning" style="width: 44px; height: 44px;"><i class="fa-solid fa-seedling fs-4"></i></div>
                         <h6 class="fw-bold mb-1">Sustainability</h6>
                         <p class="text-muted small mb-0" style="font-size: 11px;">Building long-term self-reliance rather than temporary fixes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Official Brochure Showcase -->
+    <section class="section-padding bg-canvas border-top">
+        <div class="container">
+            <div class="glass-panel bg-white p-4 p-lg-5 rounded-4 border shadow-sm">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-4 text-center">
+                        <div class="position-relative d-inline-block shadow rounded-3 overflow-hidden border" style="max-width: 240px;">
+                            <img src="images/brochure_cover.jpg" alt="Official Foundation Brochure" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <span class="badge bg-danger text-white px-3 py-1 rounded-pill fw-bold text-uppercase mb-2" style="font-size: 11px;">Official Publication</span>
+                        <h3 class="fw-bold font-heading text-dark mb-2">Non Stop Education &amp; Social Welfare Foundation Brochure</h3>
+                        <p class="text-muted small lh-base mb-3">
+                            Discover our comprehensive mission, achievements of 500+ students educated, branches in Delhi &amp; Chandigarh, women's rights advocacy, and POSH training initiatives in our official brochure.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="images/NonStopEducation_Brochure.pdf" download="NonStopEducation_Brochure.pdf" class="btn btn-pill btn-pill-accent btn-sm">
+                                <i class="fa-solid fa-download me-1"></i> Download Official Brochure (PDF)
+                            </a>
+                            <a href="images/NonStopEducation_Brochure.pdf" target="_blank" class="btn btn-pill btn-pill-outline btn-sm">
+                                <i class="fa-solid fa-eye me-1"></i> View Online
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
