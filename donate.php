@@ -75,30 +75,32 @@ include 'includes/header.php';
                         <p class="text-muted text-center small mb-3">Transfer directly to our foundation account via NEFT, RTGS, IMPS or UPI.</p>
                         
                         <div class="bg-canvas p-3 rounded-3 border mb-3">
-                            <table class="table table-sm table-borderless mb-0 small">
-                                <tbody>
-                                    <tr class="border-bottom">
-                                        <td class="text-muted fw-bold" style="width: 38%;">Account Name:</td>
-                                        <td class="fw-bold text-dark">Non Stop Education &amp; Social Welfare Foundation</td>
-                                    </tr>
-                                    <tr class="border-bottom">
-                                        <td class="text-muted fw-bold">Organization Type:</td>
-                                        <td class="fw-semibold text-dark">Registered Non-Profit NGO</td>
-                                    </tr>
-                                    <tr class="border-bottom">
-                                        <td class="text-muted fw-bold">Support Helpline:</td>
-                                        <td class="fw-bold text-danger">+91 85272 25832</td>
-                                    </tr>
-                                    <tr class="border-bottom">
-                                        <td class="text-muted fw-bold">Official Email:</td>
-                                        <td class="fw-semibold text-dark">contact@nonstopeducation.org</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-muted fw-bold">Reference:</td>
-                                        <td class="fw-semibold text-dark">Child Education &amp; Welfare Donation</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+                                <table class="table table-sm table-borderless mb-0 small bank-details-table">
+                                    <tbody>
+                                        <tr class="border-bottom">
+                                            <td class="text-muted fw-bold" style="width: 38%;">Account Name:</td>
+                                            <td class="fw-bold text-dark">Non Stop Education &amp; Social Welfare Foundation</td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td class="text-muted fw-bold">Organization Type:</td>
+                                            <td class="fw-semibold text-dark">Registered Non-Profit NGO</td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td class="text-muted fw-bold">Support Helpline:</td>
+                                            <td class="fw-bold text-danger">+91 85272 25832</td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td class="text-muted fw-bold">Official Email:</td>
+                                            <td class="fw-semibold text-dark">contact@nonstopeducation.org</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted fw-bold">Reference:</td>
+                                            <td class="fw-semibold text-dark">Child Education &amp; Welfare Donation</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
 
                         <!-- Sponsorship Levels -->

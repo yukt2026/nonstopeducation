@@ -6,9 +6,9 @@ $extraHead = '
     <style>
         .gallery-grid {
             column-count: 1;
-            column-gap: 1rem;
+            column-gap: 0.8rem;
         }
-        @media (min-width: 768px) {
+        @media (min-width: 480px) {
             .gallery-grid { column-count: 2; }
         }
         @media (min-width: 992px) {

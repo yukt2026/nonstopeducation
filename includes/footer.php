@@ -1,6 +1,6 @@
     <!-- Footer Dense -->
     <footer class="footer-dense-dark mt-0">
-        <div class="container">
+        <div class="container-xl">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 pe-lg-4 text-center text-md-start">
                     <a class="navbar-brand-custom mb-3 d-inline-flex align-items-center text-decoration-none" href="index.php" style="color: var(--white);">
