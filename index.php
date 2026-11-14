@@ -23,7 +23,7 @@ include 'includes/header.php';
                             <span class="badge bg-danger text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
                                 <i class="fa-solid fa-graduation-cap me-1"></i> Quality Education For All
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Empowering Underprivileged Children Through Education</h1>
+                            <h1 class="display-5 text-white fw-bold mb-3 font-heading"><span class="d-block fs-3 text-warning mb-1">Non Stop Education &amp; Social Welfare Foundation</span>Empowering Underprivileged Children Through Education</h1>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
                                 Ensuring that every child, regardless of social or economic background, has access to quality education, equal opportunities, and a brighter future.
                             </p>
@@ -44,7 +44,7 @@ include 'includes/header.php';
                             <span class="badge bg-primary text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
                                 <i class="fa-solid fa-school me-1"></i> Smart Classrooms &amp; Learning Centres
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Nurturing Young Minds In Slums &amp; Govt. Schools</h1>
+                            <h2 class="display-5 text-white fw-bold mb-3 font-heading">Nurturing Young Minds In Slums &amp; Govt. Schools</h2>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
                                 Free digital smart classroom sessions, foundational literacy, and essential academic assistance to children.
                             </p>
@@ -65,7 +65,7 @@ include 'includes/header.php';
                             <span class="badge bg-success text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
                                 <i class="fa-solid fa-child-reaching me-1"></i> Child Welfare &amp; Nutrition
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Holistic Care, Health &amp; Essential Assistance</h1>
+                            <h2 class="display-5 text-white fw-bold mb-3 font-heading">Holistic Care, Health &amp; Essential Assistance</h2>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
                                 Nutrition drives, school kits, hygiene awareness, and essential support to build healthy, empowered lives.
                             </p>
@@ -86,7 +86,7 @@ include 'includes/header.php';
                             <span class="badge bg-danger text-white rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase fs-7 tracking-wider">
                                 <i class="fa-solid fa-shield-halved me-1"></i> Women Rights, POSH &amp; Safety
                             </span>
-                            <h1 class="display-5 text-white fw-bold mb-3 font-heading">Empowering Women, Ensuring Safety in Colleges &amp; Communities</h1>
+                            <h2 class="display-5 text-white fw-bold mb-3 font-heading">Empowering Women, Ensuring Safety in Colleges &amp; Communities</h2>
                             <p class="lead text-light-50 mb-3 text-shadow-sm fs-6">
                                 Free POSH Act awareness, women's legal rights seminars in universities, and digital marketing scholarships for girl students.
                             </p>

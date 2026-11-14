@@ -8,8 +8,106 @@
     <?php
         $currentScript = basename($_SERVER['PHP_SELF'] ?? 'index.php');
         $canonicalPath = ($currentScript === 'index.php') ? '' : $currentScript;
+        $canonicalUrl = 'https://nonstopeducation.org/' . $canonicalPath;
+        $siteTitle = isset($pageTitle) ? $pageTitle : 'Non Stop Education & Social Welfare Foundation | Nurturing Minds, Empowering Lives';
+        $siteDesc = isset($pageDescription) ? $pageDescription : 'Non Stop Education & Social Welfare Foundation is a non-profit organization dedicated to creating positive social impact through education, child welfare, women empowerment, and community development.';
+        $ogImage = 'https://nonstopeducation.org/images/logo.png';
     ?>
-    <link rel="canonical" href="https://nonstopeducation.org/<?php echo $canonicalPath; ?>">
+    <link rel="canonical" href="<?php echo $canonicalUrl; ?>">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="keywords" content="Non Stop Education, nonstop education, NonStopEducation, nonstopeducation.org, Non Stop Education & Social Welfare Foundation, NGO Delhi, NGO in Shahdara, NGO in Uttam Nagar, Free Education NGO, Child Welfare NGO, Women Empowerment NGO, Manisha Versha NGO">
+    <meta name="author" content="Non Stop Education & Social Welfare Foundation">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="<?php echo $canonicalUrl; ?>">
+    <meta property="og:site_name" content="Non Stop Education & Social Welfare Foundation">
+    <meta property="og:title" content="<?php echo htmlspecialchars($siteTitle); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($siteDesc); ?>">
+    <meta property="og:image" content="<?php echo $ogImage; ?>">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="Non Stop Education & Social Welfare Foundation Logo">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="<?php echo $canonicalUrl; ?>">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($siteTitle); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($siteDesc); ?>">
+    <meta name="twitter:image" content="<?php echo $ogImage; ?>">
+
+    <!-- Schema.org JSON-LD Structured Data for Google Entity & Knowledge Panel -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "NGO",
+          "@id": "https://nonstopeducation.org/#organization",
+          "name": "Non Stop Education & Social Welfare Foundation",
+          "alternateName": [
+            "Non Stop Education",
+            "NonStopEducation",
+            "Non Stop Education NGO",
+            "NSE Foundation",
+            "NonStop Education"
+          ],
+          "url": "https://nonstopeducation.org/",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://nonstopeducation.org/#logo",
+            "url": "https://nonstopeducation.org/images/logo.png",
+            "caption": "Non Stop Education & Social Welfare Foundation Logo"
+          },
+          "image": "https://nonstopeducation.org/images/logo.png",
+          "description": "Non Stop Education & Social Welfare Foundation is a registered non-profit NGO dedicated to creating positive social impact through free child education, slum school centres, kit distribution, women empowerment, POSH awareness, and social welfare in Delhi, India.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Shahdara / Uttam Nagar",
+            "addressRegion": "Delhi",
+            "postalCode": "110093",
+            "addressCountry": "IN"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+91-7042944703",
+              "contactType": "helpline",
+              "availableLanguage": ["Hindi", "English"]
+            }
+          ],
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Manisha",
+              "jobTitle": "Founder"
+            },
+            {
+              "@type": "Person",
+              "name": "Versha",
+              "jobTitle": "Co-Founder"
+            }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/nonstop_education",
+            "https://youtube.com/@non_stop_education"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://nonstopeducation.org/#website",
+          "url": "https://nonstopeducation.org/",
+          "name": "Non Stop Education & Social Welfare Foundation",
+          "alternateName": "Non Stop Education",
+          "publisher": {
+            "@id": "https://nonstopeducation.org/#organization"
+          },
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+    </script>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">

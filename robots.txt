@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /images/google_drive_backup/
+Disallow: /compress_drive_images.php
 
 Sitemap: https://nonstopeducation.org/sitemap.xml
