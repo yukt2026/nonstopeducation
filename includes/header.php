@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Non Stop Education & Social Welfare Foundation'; ?></title>
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Non Stop Education & Social Welfare Foundation is a non-profit organization dedicated to creating positive social impact through education, child welfare, women empowerment, and community development.'; ?>">
+    <?php
+        $currentScript = basename($_SERVER['PHP_SELF'] ?? 'index.php');
+        $canonicalPath = ($currentScript === 'index.php') ? '' : $currentScript;
+    ?>
+    <link rel="canonical" href="https://nonstopeducation.org/<?php echo $canonicalPath; ?>">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
