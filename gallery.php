@@ -324,6 +324,24 @@ $galleryItems = [
         'badge_class' => 'bg-success',
         'title' => 'United in Joy, Learning & Hope',
         'description' => 'Vibrant collage capturing the pure smiles, energy, and gratitude of community children and youth leaders.'
+    ],
+    [
+        'file' => 'WhatsApp Image 2026-11-14 at 12.21.57 PM (1).jpeg',
+        'folder' => 'images/browcher',
+        'category' => 'community',
+        'category_name' => 'Elder Care & Support',
+        'badge_class' => 'bg-primary',
+        'title' => 'Elderly Care & Respect Outreach',
+        'description' => 'Foundation leadership and youth volunteers spending meaningful moments with senior citizens, offering warmth and care.'
+    ],
+    [
+        'file' => 'WhatsApp Image 2026-11-14 at 2.27.10 PM.jpeg',
+        'folder' => 'images/browcher',
+        'category' => 'events',
+        'category_name' => 'Youth & Seminars',
+        'badge_class' => 'bg-success',
+        'title' => 'Student Empowerment & Awareness Seminar',
+        'description' => 'Foundation founders, faculty members, and police dignitaries addressing youth in an inspiring educational seminar.'
     ]
 ];
 
@@ -572,8 +590,9 @@ include 'includes/header.php';
             <!-- Gallery Cards Grid -->
             <div class="gallery-grid" id="galleryGrid">
                 <?php foreach ($galleryItems as $index => $item): 
-                    $safeFile = 'images/google_drive/' . rawurlencode($item['file']);
-                    $fileSizeKB = file_exists(__DIR__ . '/images/google_drive/' . $item['file']) ? round(filesize(__DIR__ . '/images/google_drive/' . $item['file']) / 1024, 0) . ' KB' : 'under 200 KB';
+                    $folder = !empty($item['folder']) ? $item['folder'] : 'images/google_drive';
+                    $safeFile = $folder . '/' . rawurlencode($item['file']);
+                    $fileSizeKB = file_exists(__DIR__ . '/' . $folder . '/' . $item['file']) ? round(filesize(__DIR__ . '/' . $folder . '/' . $item['file']) / 1024, 0) . ' KB' : 'under 200 KB';
                 ?>
                 <div class="gallery-card" 
                      data-category="<?php echo htmlspecialchars($item['category']); ?>" 
@@ -716,7 +735,8 @@ $extraScripts = '
         const item = galleryItems[currentIndex];
         if (!item) return;
 
-        const imgPath = "images/google_drive/" + encodeURIComponent(item.file);
+        const folder = item.folder ? item.folder : "images/google_drive";
+        const imgPath = folder + "/" + encodeURIComponent(item.file);
         document.getElementById("lightboxImg").src = imgPath;
         document.getElementById("lightboxModalTitle").textContent = item.title;
         document.getElementById("lightboxCounter").textContent = (currentIndex + 1) + " / " + galleryItems.length;
