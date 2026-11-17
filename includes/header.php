@@ -1,11 +1,9 @@
 <?php
 // ==============================================================
-// TEMPORARY DELAY: 15 to 20 Seconds
-// Website ke har page ko load hone me 15-20 second lagenge.
-// Ise band karne ke liye niche wali do lines ko comment (//) kar dein ya is block ko delete kar dein.
+// TEMPORARY SLOW SERVER RESPONSE CONTROLLER (20s DELAY)
+// Website ke sabhi pages par visual 20s server slow response message + timer active hai.
 // ==============================================================
 @set_time_limit(60);
-sleep(rand(15, 20));
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -132,9 +130,292 @@ sleep(rand(15, 20));
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css?v=2.5.0">
+
+    <!-- ============================================================== -->
+    <!-- TEMPORARY 20-SECOND SLOW SERVER RESPONSE SIMULATOR STYLES -->
+    <!-- ============================================================== -->
+    <style id="server-slow-style">
+        #server-slow-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle at center, #1e293b 0%, #0b1120 100%);
+            z-index: 99999999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #f8fafc;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        #server-slow-overlay.fade-out {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .server-box {
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(245, 158, 11, 0.2);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 36px 30px;
+            max-width: 520px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .server-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #f59e0b, #ef4444, #f59e0b);
+            background-size: 200% 100%;
+            animation: serverGrad 2s linear infinite;
+        }
+        @keyframes serverGrad {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 200% 0%; }
+        }
+        .server-icon-pulse {
+            width: 76px;
+            height: 76px;
+            margin: 0 auto 18px;
+            background: rgba(245, 158, 11, 0.15);
+            border: 2px solid rgba(245, 158, 11, 0.45);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            color: #f59e0b;
+            animation: serverPulse 2s infinite;
+        }
+        @keyframes serverPulse {
+            0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+            70% { box-shadow: 0 0 0 20px rgba(245, 158, 11, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+        }
+        .server-status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(239, 68, 68, 0.18);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            color: #fca5a5;
+            padding: 5px 14px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
+        }
+        .server-status-pill .dot {
+            width: 8px;
+            height: 8px;
+            background: #ef4444;
+            border-radius: 50%;
+            animation: serverBlink 1s infinite alternate;
+        }
+        @keyframes serverBlink {
+            0% { opacity: 0.3; }
+            100% { opacity: 1; }
+        }
+        .server-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 0 8px;
+        }
+        .server-desc {
+            font-size: 14px;
+            color: #94a3b8;
+            line-height: 1.5;
+            margin: 0 0 20px;
+        }
+        .server-progress-container {
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            height: 10px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+        .server-progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #f59e0b, #ef4444);
+            border-radius: 12px;
+            transition: width 0.3s ease-out;
+        }
+        .server-meta-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: #cbd5e1;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+        .server-log-box {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 12px;
+            color: #38bdf8;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .server-log-box i {
+            color: #f59e0b;
+        }
+    </style>
     <?php if (isset($extraHead)) echo $extraHead; ?>
 </head>
 <body class="<?php echo isset($bodyClass) ? $bodyClass : 'bg-canvas'; ?>">
+
+    <!-- Top Notice Banner for Slow Server Response -->
+    <div id="server-slow-banner" style="display:none; background:#fef3c7; border-bottom:1px solid #f59e0b; color:#92400e; font-size:13px; font-weight:600; padding:10px 18px; text-align:center; position:relative; z-index:99999;">
+        <i class="fa-solid fa-triangle-exclamation text-warning me-2"></i>
+        <span>⚠️ <strong>Server Notice:</strong> Server is currently experiencing high load. Pages may take longer than usual to respond.</span>
+        <button type="button" onclick="document.getElementById('server-slow-banner').style.display='none'" style="background:none; border:none; float:right; cursor:pointer; color:#92400e; font-size:18px; font-weight:bold; line-height:1;" title="Dismiss">&times;</button>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- SLOW SERVER RESPONSE OVERLAY & MESSAGE (NO SECONDS DISPLAYED) -->
+    <!-- ============================================================== -->
+    <div id="server-slow-overlay">
+        <div class="server-box">
+            <div class="server-icon-pulse">
+                <i class="fa-solid fa-server"></i>
+            </div>
+            <div class="server-status-pill">
+                <span class="dot"></span>
+                <span>Slow Server Response Detected</span>
+            </div>
+            <h2 class="server-title">Connecting to Server...</h2>
+            <p class="server-desc">
+                The server is taking longer than usual to respond. Please wait while the page is being fetched...<br>
+                <span style="display:block; font-size:12.5px; color:#cbd5e1; margin-top:4px;">सर्वर से रिस्पॉन्स मिलने में सामान्य से अधिक समय लग रहा है, कृपया प्रतीक्षा करें...</span>
+            </p>
+            
+            <div class="server-progress-container">
+                <div class="server-progress-bar" id="server-progress-bar"></div>
+            </div>
+            
+            <div class="server-meta-info">
+                <span><i class="fa-solid fa-server text-warning me-1"></i> Host: Responding Slowly</span>
+                <span><i class="fa-solid fa-spinner fa-spin text-info me-1"></i> Processing Request...</span>
+            </div>
+            
+            <div class="server-log-box">
+                <i class="fa-solid fa-circle-notch fa-spin"></i>
+                <span id="server-status-log">Connecting to host server... Waiting for response</span>
+            </div>
+        </div>
+    </div>
+
+    <script id="server-slow-script">
+    (function() {
+        var TOTAL_SECONDS = 20;
+        var remaining = TOTAL_SECONDS;
+        var overlay = document.getElementById('server-slow-overlay');
+        var progressBar = document.getElementById('server-progress-bar');
+        var statusLog = document.getElementById('server-status-log');
+        var banner = document.getElementById('server-slow-banner');
+
+        function endDelay() {
+            if (overlay) {
+                overlay.classList.add('fade-out');
+                setTimeout(function() {
+                    overlay.style.display = 'none';
+                    if (banner) banner.style.display = 'block';
+                }, 500);
+            }
+        }
+
+        var interval = setInterval(function() {
+            remaining--;
+            var elapsed = TOTAL_SECONDS - remaining;
+            var percent = Math.min(100, Math.round((elapsed / TOTAL_SECONDS) * 100));
+
+            if (progressBar) progressBar.style.width = percent + '%';
+
+            if (statusLog) {
+                if (elapsed <= 4) {
+                    statusLog.innerText = '[1/4] Establishing secure connection with host server...';
+                } else if (elapsed <= 9) {
+                    statusLog.innerText = '[2/4] ⚠️ Server load high: Waiting in server queue...';
+                } else if (elapsed <= 14) {
+                    statusLog.innerText = '[3/4] Server executing database scripts & assets query...';
+                } else if (elapsed <= 18) {
+                    statusLog.innerText = '[4/4] Receiving compressed page payload from server...';
+                } else {
+                    statusLog.innerText = '[✓] Connected! Finalizing page display...';
+                }
+            }
+
+            if (remaining <= 0) {
+                clearInterval(interval);
+                endDelay();
+            }
+        }, 1000);
+
+        // Page navigation interception: clicking links also shows server delay without displaying seconds
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.querySelectorAll('a[href]');
+            links.forEach(function(link) {
+                var href = link.getAttribute('href');
+                if (href && !href.startsWith('#') && !href.startsWith('javascript') && !href.startsWith('tel:') && !href.startsWith('mailto:') && !link.hasAttribute('target')) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        if (overlay) {
+                            overlay.style.display = 'flex';
+                            overlay.classList.remove('fade-out');
+                            if (progressBar) progressBar.style.width = '0%';
+                            if (statusLog) statusLog.innerText = '[1/4] ⚠️ Requesting ' + href + ' from server...';
+                            
+                            var navRemaining = TOTAL_SECONDS;
+                            var navInterval = setInterval(function() {
+                                navRemaining--;
+                                var navElapsed = TOTAL_SECONDS - navRemaining;
+                                if (progressBar) progressBar.style.width = Math.min(100, Math.round((navElapsed / TOTAL_SECONDS) * 100)) + '%';
+                                if (statusLog) {
+                                    if (navElapsed <= 8) {
+                                        statusLog.innerText = '[2/4] ⚠️ High latency: Waiting for server response...';
+                                    } else if (navElapsed <= 15) {
+                                        statusLog.innerText = '[3/4] Receiving page data from server...';
+                                    } else {
+                                        statusLog.innerText = '[4/4] Redirecting to page...';
+                                    }
+                                }
+                                if (navRemaining <= 0) {
+                                    clearInterval(navInterval);
+                                    window.location.href = href;
+                                }
+                            }, 1000);
+                        } else {
+                            window.location.href = href;
+                        }
+                    });
+                }
+            });
+        });
+    })();
+    </script>
 
     <!-- Brand Accent Top Stripe -->
     <div class="header-accent-stripe"></div>
