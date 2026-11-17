@@ -1,3 +1,12 @@
+<?php
+// ==============================================================
+// TEMPORARY DELAY: 15 to 20 Seconds
+// Website ke har page ko load hone me 15-20 second lagenge.
+// Ise band karne ke liye niche wali do lines ko comment (//) kar dein ya is block ko delete kar dein.
+// ==============================================================
+@set_time_limit(60);
+sleep(rand(15, 20));
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
