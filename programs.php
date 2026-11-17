@@ -175,7 +175,7 @@ include 'includes/header.php';
                     <span class="badge bg-danger text-white py-1 px-2.5 rounded-pill mb-2" style="font-size: 11px; font-weight: 700;">INITIATIVE 05</span>
                     <h3 class="fw-bold mb-2 font-heading text-dark">POSH &amp; POCSO Awareness Training Program</h3>
                     <p class="text-muted small mb-3 lh-base">
-                        Conducted by our Founder &amp; Certified Trainer <strong>Manisha</strong>, our specialized sessions bring statutory legal awareness, victim assistance, and institutional safety directly to colleges, universities, schools, and organizations.
+                        Conducted by our Founder &amp; POSH / POCSO Trainer <strong>Manisha</strong>, our specialized sessions bring statutory legal awareness, victim assistance, and institutional safety directly to colleges, universities, schools, and organizations.
                     </p>
                     
                     <div class="p-3 bg-white rounded-3 border-start border-danger border-4 shadow-xs mb-3">

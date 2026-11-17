@@ -219,7 +219,7 @@ include 'includes/header.php';
                 <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="founder-card h-100 rounded-4 overflow-hidden shadow-sm border p-4 text-center d-flex flex-column align-items-center">
                         <div class="founder-photo-wrap mb-3">
-                            <img src="images/cofounder_versha.png" alt="Versha - Co-Founder" class="founder-cutout-img">
+                            <img src="images/cofounder_versha.png?v=2" alt="Versha - Co-Founder" class="founder-cutout-img">
                         </div>
                         <span class="badge bg-danger bg-opacity-10 text-danger px-3 py-1.5 rounded-pill fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 0.5px;">CO-FOUNDER</span>
                         <h3 class="fw-bold font-heading text-dark mb-1">Versha</h3>
